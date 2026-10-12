@@ -1,0 +1,119 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zeropage-studio",
+  "version": "1.0.0",
+  "description": "Generate images and video held to your own photos, right from where you're already working.",
+  "author": {
+    "name": "Zero Page Studio",
+    "url": "https://zeropage.studio"
+  },
+  "homepage": "https://zeropage.studio/connector",
+  "repository": "https://github.com/zeropage-onryo/zeropage-studio-chatgpt-plugin",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "filmmaking",
+    "ai-video",
+    "image-generation",
+    "storyboard",
+    "creators"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Zero Page Studio",
+        "shortDescription": "Generate images and video held to your own photos, right from where you're already working.",
+        "longDescription": "Generate high-quality images and video held to your own reference photos, right from where you're already working. Add Zero Page Studio and sign in with your studio account. Every still and clip is made only on your yes, on Kling, Veo, Seedance, LTX, Wan, FLUX and more, then filed in a project with its brief, look, references and chat. Trim, reshape, join and share what you made. No API key required.",
+        "developerName": "Zero Page Studio",
+        "category": "Productivity",
+        "capabilities": [
+          "Write scenes",
+          "Generate images",
+          "Render video",
+          "Edit clips",
+          "Manage projects"
+        ],
+        "websiteURL": "https://zeropage.studio/connector",
+        "supportURL": "https://github.com/zeropage-onryo/zeropage-studio-chatgpt-plugin/issues",
+        "privacyPolicyURL": "https://zeropage.studio/privacy",
+        "termsOfServiceURL": "https://zeropage.studio/terms",
+        "defaultPrompt": [
+          "Open my project Spring product spots and show me its scenes.",
+          "Write a two-shot scene of the Tonal One headphones on a desk in window light and save it to the project.",
+          "What would it cost to render scene 408?",
+          "Draw a still of a pair of headphones on a slate desk in soft window light.",
+          "Make a square copy of my latest clip and give me a download link."
+        ],
+        "brandColor": "#E4002B",
+        "brandColorDark": "#FF4D6A",
+        "composerIcon": "./assets/icon.png",
+        "composerIconDark": "./assets/icon-dark.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo-dark.png"
+      },
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "List and open a project",
+              "prompt": "Open my project Spring product spots and show me its scenes.",
+              "tools_triggered": "projects, project",
+              "expected_behavior": "projects lists the project; project returns its brief, look, scenes (including 400 and 408 with their status), the reference photos those scenes used and the latest chat turns. Nothing is rendered."
+            },
+            {
+              "description": "Write a scene held to the account's own photos",
+              "prompt": "Write a two-shot scene of the Tonal One headphones on a desk in soft window light, about 8 seconds, and save it to Spring product spots.",
+              "tools_triggered": "elements, write_scene",
+              "expected_behavior": "elements lists the four product props with photo refs; write_scene saves a new scene in the project with the headphones' photo as a reference and answers its scene_id, two shots, reference_photos 2, rendered false and the scene's studio link. No credits are spent."
+            },
+            {
+              "description": "Price a render",
+              "prompt": "What would it cost to render scene 408?",
+              "tools_triggered": "quote",
+              "expected_behavior": "quote answers the keyframes and the clip priced in credits beside the account's balance, with signed tokens valid for one hour, and the note to show the person the price and wait for a yes. Nothing is spent by the quote."
+            },
+            {
+              "description": "Draw a still after a quote and a yes",
+              "prompt": "Draw a still of a pair of headphones on a slate desk in soft window light. Yes, go ahead at that price.",
+              "tools_triggered": "generate_image, generate_image, job",
+              "expected_behavior": "The first generate_image call (no quote_token) answers a quote with the model, the credits and a quote_token and draws nothing; the second call with that token starts a job; job with wait=15 ends done with the image's address and its gen:<id>. The account's balance drops by the quoted credits once."
+            },
+            {
+              "description": "Reshape a clip and share it",
+              "prompt": "Make a square copy of my latest clip and give me a download link.",
+              "tools_triggered": "library, reformat, job, share_link",
+              "expected_behavior": "library lists the account's rendered clip; reformat to 1:1 starts a job that ends done with a new gen:<id> at no cost; share_link answers an https download address valid for 24 hours. The balance is unchanged."
+            }
+          ],
+          "negative": [
+            {
+              "description": "No commerce through the plugin",
+              "prompt": "Buy me 500 more credits."
+            },
+            {
+              "description": "Nothing is deleted or overwritten by the plugin",
+              "prompt": "Delete scene 400 and all my renders."
+            },
+            {
+              "description": "Another workspace's work is refused as if it did not exist",
+              "prompt": "Show me scene 375."
+            }
+          ]
+        },
+        "demo_recording_url": "https://zeropage.studio/connector#demo-TO-RECORD",
+        "commerce": false,
+        "commerce_description": "Nothing is sold through the plugin. Renders use the credits of the person's existing Zero Page Studio account; the plugin shows no plans, starts no subscription and links to no purchase page."
+      },
+      "publication": {
+        "countries": [
+          "US",
+          "CA",
+          "GB",
+          "AU"
+        ],
+        "release_notes": "Initial release: projects, elements and uploads, scenes held to your own photos, quotes and renders on your yes, free clip edits and download links, balance and history, recipes and insights."
+      }
+    }
+  }
+}
