@@ -69,7 +69,7 @@ Person: "This is for Reels, and I want a feed version too."
 2. `write_scene` with seconds=10 and "Ultra-realistic grounded ... in 9:16"
    as the opening line; two windows fill 0 to 10 s.
 3. `quote` with model=ltx2.3 prices the two windows as two six-second LTX 2.3
-   shots, 87 credits each, 174 in all, against the balance. On the person's
+   shots, each with its credits, and their total against the balance. On the person's
    yes, `approve` what=clip with the two tokens and the same renderer choice;
    `job` wait=15 until done. `scene` shows the clip has landed; `library`
    with kind=video lists it newest first as gen:920.

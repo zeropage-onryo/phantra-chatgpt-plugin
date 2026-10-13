@@ -42,9 +42,9 @@ Setting a series up and writing its episodes spends nothing; a render is
 3. In the new prompt change only the beats. Keep the opening line and the
    style block word for word, keep the sound line's shape, keep the avoid
    list, and name the same photos the same way.
-4. Show it to the person, then `quote` it: the keyframes (10 credits a still)
-   and the clip, one render per shot with a token each -- an LTX 2.3
-   six-second shot is 87 -- against the balance; with a series default set,
+4. Show it to the person, then `quote` it: the keyframes (the credits for
+   `each` still) and the clip, one render per shot with its credits and a
+   token, against the balance; with a series default set,
    `preference` says which model it priced. Say the price in credits and WAIT
    for the person's yes in chat.
 5. Only on that yes: `approve` with the quote's tokens and the same renderer

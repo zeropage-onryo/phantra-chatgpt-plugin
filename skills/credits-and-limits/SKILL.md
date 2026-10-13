@@ -19,13 +19,13 @@ this chat. Only `generate_image` and `approve` spend, and each is quoted first.
 ## What costs credits
 
 - **A still**: `generate_image` WITHOUT `quote_token` draws nothing and answers the quote:
-  the credits (10 on the default model; `image_models` lists the rest), the balance after
+  the credits (`image_models` lists each model's at 1:1), the balance after
   it and a `quote_token`. The SAME call WITH that token starts the job.
 - **Keyframes**: one still per shot. `quote` says how many are still to draw and the
-  credits (`each`, 10); `approve` with `what="keyframes"` and its `tokens` draws them.
+  credits for `each`; `approve` with `what="keyframes"` and its `tokens` draws them.
 - **The clip**: one render per shot still without a clip, priced by model, length and
-  frame. `quote` lists `clip.renders` (part, seconds, credits, `token`) and the total -- a
-  six-second LTX 2.3 shot at 1080p is 87. `approve` with `what="clip"`, those `tokens` and
+  frame. `quote` lists `clip.renders` (part, seconds, credits, `token`) and the
+  total. `approve` with `what="clip"`, those `tokens` and
   the same `provider`, `model`, `frame` and `duration` renders at exactly that price.
 
 A token is good for one hour, for exactly that request, and once. Credit is held when the

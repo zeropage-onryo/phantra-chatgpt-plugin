@@ -65,9 +65,9 @@ several scenes, one per beat, each saved on its own and joined later.
 ## The render, then the join
 
 1. `quote` prices the scene in credits, beside the `balance`: `keyframes` (one
-   still per shot, 10 `each` on the default model) and `clip` (one render per
-   timed shot, each with credits and a `token`; the three shots above on LTX
-   2.3 are 87 each, 261 in all). Say the credits and WAIT for a yes in chat.
+   still per shot, with the credits for `each`) and `clip` (one render per
+   timed shot, each with its credits and a `token`, and the total for all
+   three shots above). Say the quote's credits and WAIT for a yes in chat.
 2. On the yes, `approve` with `scene_id`, `what` "clip", the quote's `tokens`
    and the renderer choice it priced (`provider`, `model`, `frame`, `duration`):
    every shot without a clip yet, at exactly the quoted credits. `what`

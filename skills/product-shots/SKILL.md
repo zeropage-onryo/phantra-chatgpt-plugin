@@ -85,8 +85,8 @@ flare, named brands for the look.
 Show the prompt, take edits, then `write_scene` (`prompt`, `seconds`, `refs`
 pack shot first, `roles`, `title`, `project_id`). `quote` it: `keyframes`
 (`stills` x `each`), `clip` (a render per timed shot, each with a `token`) and
-`balance`. Say them -- "LTX 2.3, two shots: 87 + 87 = 174 credits; keyframes
-20 (2 x 10); balance 491" -- and WAIT for an explicit yes; only then `approve`
+`balance`. Say them in the quote's own numbers -- the model, the shots and
+their credits, the keyframes, the balance -- and WAIT for an explicit yes; only then `approve`
 (`what` clip or keyframes, the quote's `tokens`, its renderer choice), `job`
 until done; `scene` shows `clips`. A still is `generate_image` (the prop's
 `ref` in `references`; `image_models` says which take them): the first call is

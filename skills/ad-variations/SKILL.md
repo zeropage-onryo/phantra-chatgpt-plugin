@@ -62,11 +62,11 @@ A copy is titled "<source title> (copy)" and cannot be renamed from here (a
 `write_scene` rewrite replaces a scene's text, never its title), so keep a
 short table in the chat as you go and say which `scene_id` is which:
 
-| scene_id | variable | change | credits (from quote, LTX 2.3) |
+| scene_id | variable | change | credits (each from its own quote) |
 |---|---|---|---|
-| 412 | source | -- | 261 (3 shots at 87) |
-| 418 | hook | opens on "two weeks" | 261 |
-| 419 | length | 15 s to 10 s | 174 (2 shots at 87) |
+| 412 | source | -- | 3 shots: its quote's total |
+| 418 | hook | opens on "two weeks" | 3 shots: its quote's total |
+| 419 | length | 15 s to 10 s | 2 shots: its quote's total |
 
 ## Worked example
 
@@ -75,8 +75,8 @@ shorter one. Re-time it: (0-4s) the open unchanged, (4-10s) the product shot
 two seconds shorter with the closing line moved to its end, the third window
 dropped. Then `duplicate_scene` with `scene_id` 412, the re-timed `prompt`
 and `seconds` 10: it gives scene 419. `quote` 419 with `model` ltx2.3 reads
-two shots at 87, 174 credits in all (each window is fitted up to the model's
-shortest length), beside the balance. Say that and wait. On "yes", `approve`
+two shots, each with its credits, and their total (each window is fitted up
+to the model's shortest length), beside the balance. Say that and wait. On "yes", `approve`
 419, `what` "clip", the two `tokens`, `provider` fal, `model` ltx2.3, `frame`
 1080p; `job` until it is done; `scene` 419 shows the clip.
 
