@@ -1,6 +1,6 @@
 ---
 name: credits-and-limits
-description: Explain what is free and what costs credits in Zero Page Studio, read the balance and where credits went, walk the quote -> yes -> approve flow every spend takes, set up draft-first rendering, and explain a refusal or the connector's rate limit (a 429). Use when someone asks how much something costs, what credits are, what their balance is, where their credits went, how to render cheaper, what a quote token is, why a call was refused, why they got "rate limited", or whether an action will charge them. NOT for pricing a particular scene and approving its render (price-and-hand-off) and NOT for choosing ideas (ideas-and-projects).
+description: Explain what is free and what costs credits in Phantra, read the balance and where credits went, walk the quote -> yes -> approve flow every spend takes, set up draft-first rendering, and explain a refusal or the connector's rate limit (a 429). Use when someone asks how much something costs, what credits are, what their balance is, where their credits went, how to render cheaper, what a quote token is, why a call was refused, why they got "rate limited", or whether an action will charge them. NOT for pricing a particular scene and approving its render (price-and-hand-off) and NOT for choosing ideas (ideas-and-projects).
 ---
 
 # Credits and limits
@@ -85,7 +85,7 @@ false, say so first and that credits are added in the studio, and make no call.
   differ (`letterbox` on `assemble_clips`), or the id was not one `library` listed.
 - "no scene N" / "no project N": the id is not one this person can see. Re-read `projects`
   or the project rather than retrying the id.
-- "no workspace yet": the person has not signed in at https://zeropage.studio. One web
+- "no workspace yet": the person has not signed in at https://phantra.ai. One web
   sign-in creates the workspace; then reconnect.
 - `rate_limited` (HTTP 429): too many calls in one minute from this account. The response
   carries `Retry-After` in seconds. Wait that long, then continue; do not loop on it. The

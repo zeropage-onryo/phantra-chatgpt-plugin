@@ -1,6 +1,6 @@
 ---
 name: ugc-unboxing
-description: Write a UGC-style unboxing scene in Zero Page Studio -- a person opening a package on their phone camera: the sealed box in their hands, the open, the product lifted out, a first touch of its details, and a first impression in their own words -- rendered against their own face, product and packaging photos. Use when someone asks for an unboxing, a "what arrived", a first-look or first-impressions clip, or a package-opening video. NOT for a verdict after using the product (ugc-review), NOT for a general talk-to-camera ad (ugc-ad), NOT for a how-to (ugc-tutorial), NOT for trying clothes on (ugc-try-on), NOT for a product-only film with no person (product-shots), and NOT for pricing or rendering (price-and-hand-off).
+description: Write a UGC-style unboxing scene in Phantra -- a person opening a package on their phone camera: the sealed box in their hands, the open, the product lifted out, a first touch of its details, and a first impression in their own words -- rendered against their own face, product and packaging photos. Use when someone asks for an unboxing, a "what arrived", a first-look or first-impressions clip, or a package-opening video. NOT for a verdict after using the product (ugc-review), NOT for a general talk-to-camera ad (ugc-ad), NOT for a how-to (ugc-tutorial), NOT for trying clothes on (ugc-try-on), NOT for a product-only film with no person (product-shots), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # UGC unboxing

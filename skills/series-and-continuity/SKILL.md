@@ -1,6 +1,6 @@
 ---
 name: series-and-continuity
-description: Make several Zero Page Studio scenes that read as one series -- episodes, a campaign, a run of posts -- by holding every scene to one project with a look, the same elements and refs in the same order with the same roles, the same style block carried across unchanged, and a fixed length, frame and model, each new episode started from the last with `duplicate_scene`. Use when someone wants part two, a series, episodes, "the same as the last one but…", or asks why two scenes look different. NOT for writing a single scene from scratch (write-scene), NOT for choosing a look in the first place (look-matching), NOT for starting the project or choosing between ideas (ideas-and-projects), and NOT for pricing or rendering (price-and-hand-off).
+description: Make several Phantra scenes that read as one series -- episodes, a campaign, a run of posts -- by holding every scene to one project with a look, the same elements and refs in the same order with the same roles, the same style block carried across unchanged, and a fixed length, frame and model, each new episode started from the last with `duplicate_scene`. Use when someone wants part two, a series, episodes, "the same as the last one but…", or asks why two scenes look different. NOT for writing a single scene from scratch (write-scene), NOT for choosing a look in the first place (look-matching), NOT for starting the project or choosing between ideas (ideas-and-projects), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # Series and continuity

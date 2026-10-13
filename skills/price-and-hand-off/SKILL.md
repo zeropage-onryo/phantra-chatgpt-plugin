@@ -1,6 +1,6 @@
 ---
 name: price-and-hand-off
-description: Price a Zero Page Studio scene, start its render on the person's yes, then report where the scene stands. Use when someone says render it, draw the stills, make the clip, how much will it cost, or asks whether a scene is done. Every render here is quoted in credits first, approved by the person in the conversation, started with `approve` (a scene) or `generate_image` (one still), and read back with `job` and `scene`. NOT for writing the scene (write-scene), NOT for an effect on something already made (effects), NOT for choosing ideas (ideas-and-projects), and NOT for explaining plans or balances in general (credits-and-limits).
+description: Price a Phantra scene, start its render on the person's yes, then report where the scene stands. Use when someone says render it, draw the stills, make the clip, how much will it cost, or asks whether a scene is done. Every render here is quoted in credits first, approved by the person in the conversation, started with `approve` (a scene) or `generate_image` (one still), and read back with `job` and `scene`. NOT for writing the scene (write-scene), NOT for an effect on something already made (effects), NOT for choosing ideas (ideas-and-projects), and NOT for explaining plans or balances in general (credits-and-limits).
 ---
 
 # Price and hand off

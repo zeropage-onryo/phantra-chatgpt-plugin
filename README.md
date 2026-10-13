@@ -1,12 +1,12 @@
-# Zero Page Studio for ChatGPT
+# Phantra for ChatGPT
 
 The plugin package submitted to OpenAI's plugin directory (`https://platform.openai.com/plugins`):
-Zero Page Studio's AI image and video generator as an MCP server, the skills that drive it, and
-the icons. What it does and how to connect it: <https://zeropage.studio/mcp>.
+Phantra's AI image and video generator as an MCP server, the skills that drive it, and
+the icons. What it does and how to connect it: <https://phantra.ai/connector>.
 
 - `plugin.json`: identity, the listing (`extensions.com.openai.interface`), the onboarding skill,
   the review cases (five positive, three negative), `commerce: false`, publication.
-- `mcp.json`: the server, `https://api.zeropage.studio/mcp` (37 tools), OAuth with dynamic client
+- `mcp.json`: the server, `https://api.phantra.ai/mcp` (37 tools), OAuth with dynamic client
   registration. A still is drawn and a scene rendered from the chat, each after a quote in
   credits and the person's explicit yes.
 - `skills/`: thirty-one skills for this server (listed below), one of them `setup`, which OpenAI
@@ -26,7 +26,7 @@ skill names.
 
 Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
-    zip -r ../zeropage-studio-chatgpt-1.0.0.zip plugin.json mcp.json assets skills README.md LICENSE
+    zip -r ../phantra-chatgpt-1.1.0.zip plugin.json mcp.json assets skills README.md LICENSE
 
 ## The skills
 
@@ -34,7 +34,7 @@ Thirty-one, each a `SKILL.md` of at most a hundred lines that names only tools t
 
 | for | skills |
 |---|---|
-| getting started | `setup`, `zeropage-use`, `start-a-project`, `ideas-and-projects` |
+| getting started | `setup`, `phantra-use`, `start-a-project`, `ideas-and-projects` |
 | ads | `product-ad-set`, `ad-formats`, `ad-variations`, `product-shots`, `explainer` |
 | creator-style video | `ugc-ad`, `ugc-review`, `ugc-unboxing`, `ugc-tutorial`, `ugc-try-on` |
 | covers and scripts | `thumbnails`, `youtube-script` |
@@ -55,8 +55,8 @@ video, and a website builder.
 
 ## Help
 
-Questions and problems: support@zeropage.studio, or an issue on this repository.
+Questions and problems: support@phantra.ai, or an issue on this repository.
 
 The Claude plugin is a different package for a different directory, in
-[zeropage-studio-plugin](https://github.com/zeropage-onryo/zeropage-studio-plugin); it points at
+[phantra-claude-plugin](https://github.com/zeropage-onryo/phantra-claude-plugin); it points at
 the server's other address, `/mcp/claude`, which never renders.

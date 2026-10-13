@@ -1,6 +1,6 @@
 ---
 name: ideas-and-projects
-description: Turn a brief into a few story ideas the person chooses between in the chat, and keep the work in a Zero Page Studio project. Use when someone describes a video, ad, short or scene they want made, asks what they are working on, wants to open or start a project, or wants to decide between ideas. NOT for writing the scene (write-scene), NOT for prices or rendering (price-and-hand-off, credits-and-limits), and NOT for choosing a visual look (look-matching).
+description: Turn a brief into a few story ideas the person chooses between in the chat, and keep the work in a Phantra project. Use when someone describes a video, ad, short or scene they want made, asks what they are working on, wants to open or start a project, or wants to decide between ideas. NOT for writing the scene (write-scene), NOT for prices or rendering (price-and-hand-off, credits-and-limits), and NOT for choosing a visual look (look-matching).
 ---
 
 # Ideas and projects
@@ -22,7 +22,7 @@ idea fits what is already there.
 
 If a call errors with "no workspace yet" or a sign-in message, the person has
 not created their workspace yet: ask them to sign in once at
-https://zeropage.studio (the workspace is created on the first sign-in) and
+https://phantra.ai (the workspace is created on the first sign-in) and
 reconnect.
 
 ## Turning a brief into ideas

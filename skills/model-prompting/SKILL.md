@@ -1,6 +1,6 @@
 ---
 name: model-prompting
-description: Choose the video model a Zero Page Studio scene renders on and write the scene for it -- `video_models` for what each takes (lengths, frames, credits, the draft frame), `recommend_model` for a job described in words, then the few wording choices that follow from what the catalogue says (a model that generates sound hears the diegetic sound line; a model that takes long clips allows one continuous take). Use when someone asks which model to use, what a model takes, why a quote is what it is, or how to write for a given model. NOT for the scene's story and beats (write-scene), NOT for pricing a scene and approving its render (price-and-hand-off), NOT for the balance and limits (credits-and-limits), and NOT for camera language (camera-moves).
+description: Choose the video model a Phantra scene renders on and write the scene for it -- `video_models` for what each takes (lengths, frames, credits, the draft frame), `recommend_model` for a job described in words, then the few wording choices that follow from what the catalogue says (a model that generates sound hears the diegetic sound line; a model that takes long clips allows one continuous take). Use when someone asks which model to use, what a model takes, why a quote is what it is, or how to write for a given model. NOT for the scene's story and beats (write-scene), NOT for pricing a scene and approving its render (price-and-hand-off), NOT for the balance and limits (credits-and-limits), and NOT for camera language (camera-moves).
 ---
 
 # Model prompting

@@ -1,11 +1,11 @@
 ---
 name: setup
-description: The first minutes with Zero Page Studio in ChatGPT: what the person can make here, the one sign-in, a look at what the workspace holds, and the one rule about spending. Use right after the plugin is installed, when the person asks how to start or what this can do, or when a call answers that the sign-in has no workspace yet. NOT for the work itself: writing a scene (write-scene), pricing and rendering (price-and-hand-off), choosing ideas (ideas-and-projects), or explaining credits (credits-and-limits).
+description: The first minutes with Phantra in ChatGPT: what the person can make here, the one sign-in, a look at what the workspace holds, and the one rule about spending. Use right after the plugin is installed, when the person asks how to start or what this can do, or when a call answers that the sign-in has no workspace yet. NOT for the work itself: writing a scene (write-scene), pricing and rendering (price-and-hand-off), choosing ideas (ideas-and-projects), or explaining credits (credits-and-limits).
 ---
 
-# Setting up Zero Page Studio
+# Setting up Phantra
 
-Zero Page Studio is an AI image and video generator the person already has
+Phantra is an AI image and video generator the person already has
 an account with. This plugin works inside that account, from the chat.
 
 ## 1. What they can make here
@@ -29,7 +29,7 @@ it with `add_element` (`source` is its `gen:<id>`).
 
 ## 2. The sign-in
 
-The person signs in once at https://zeropage.studio to create their workspace,
+The person signs in once at https://phantra.ai to create their workspace,
 then connects this plugin, which opens the studio's sign-in and a consent
 page. If a call answers that the sign-in has no workspace yet, say exactly
 that: sign in once on the site, then reconnect.

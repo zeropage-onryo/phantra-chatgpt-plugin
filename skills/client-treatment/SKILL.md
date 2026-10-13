@@ -1,6 +1,6 @@
 ---
 name: client-treatment
-description: Write a one-page client treatment (a pitch document) for a Zero Page Studio project from what the project holds -- its brief, look, scenes and references (`project`), its renders (`library`), a download link for a clip to attach (`share_link`) and what has worked before (`what_works`) -- written in the chat for the person to paste. Use when someone asks for a treatment, a pitch, a one-pager, a proposal or a page for a deck, or wants to present a project to a client. Claims, testimonials, numbers and awards come from the person and are never invented. NOT for writing the scenes (write-scene), NOT for planning the sequence (storyboard), and NOT for prices or rendering (price-and-hand-off, credits-and-limits).
+description: Write a one-page client treatment (a pitch document) for a Phantra project from what the project holds -- its brief, look, scenes and references (`project`), its renders (`library`), a download link for a clip to attach (`share_link`) and what has worked before (`what_works`) -- written in the chat for the person to paste. Use when someone asks for a treatment, a pitch, a one-pager, a proposal or a page for a deck, or wants to present a project to a client. Claims, testimonials, numbers and awards come from the person and are never invented. NOT for writing the scenes (write-scene), NOT for planning the sequence (storyboard), and NOT for prices or rendering (price-and-hand-off, credits-and-limits).
 ---
 
 # Client treatment

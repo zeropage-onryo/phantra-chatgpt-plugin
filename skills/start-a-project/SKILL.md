@@ -1,13 +1,13 @@
 ---
 name: start-a-project
-description: Take a one-line idea to a Zero Page Studio project holding its first scene: find the workspace, check the project is not already there, create it with a title, brief and look, get the person's pictures in as elements, write and file the first scene, then quote it and -- on the person's yes -- approve the render and follow it to the scene. Use when someone says "start a project", "new project for ...", "set this up", or brings a fresh idea with nothing in the studio yet. NOT for reopening or choosing between ideas in a project that exists (ideas-and-projects), NOT for the shape of the scene prompt itself (write-scene), NOT for a look read off their own renders (brand-kit-from-my-work), and NOT for the details of pricing (price-and-hand-off).
+description: Take a one-line idea to a Phantra project holding its first scene: find the workspace, check the project is not already there, create it with a title, brief and look, get the person's pictures in as elements, write and file the first scene, then quote it and -- on the person's yes -- approve the render and follow it to the scene. Use when someone says "start a project", "new project for ...", "set this up", or brings a fresh idea with nothing in the studio yet. NOT for reopening or choosing between ideas in a project that exists (ideas-and-projects), NOT for the shape of the scene prompt itself (write-scene), NOT for a look read off their own renders (brand-kit-from-my-work), and NOT for the details of pricing (price-and-hand-off).
 ---
 
 # Start a project
 
 From one line ("a 15-second vertical ad for my candle shop") to a project
 holding its first scene, priced and, on the person's yes, rendering. Nothing
-spends before that yes. Load zeropage-use first; its habits apply throughout.
+spends before that yes. Load phantra-use first; its habits apply throughout.
 
 ## Ask at most three short questions
 

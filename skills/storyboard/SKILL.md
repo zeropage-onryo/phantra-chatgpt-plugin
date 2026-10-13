@@ -1,11 +1,11 @@
 ---
 name: storyboard
-description: Plan a piece as a sequence of scenes in Zero Page Studio before any scene is written: a beat list agreed in the chat, then one `write_scene` per scene (timed shots inside each), all filed in one project and held to the same photos with the same roles so the scenes cut together. Use when someone wants a whole ad, short or sequence planned, asks for a storyboard or a beat sheet, has several places or moments in one idea, or wants alternates of a scene. NOT for writing one scene's prompt (write-scene), NOT for a spoken script (youtube-script), NOT for pricing or rendering (price-and-hand-off), and NOT for choosing between ideas before the piece is settled (ideas-and-projects).
+description: Plan a piece as a sequence of scenes in Phantra before any scene is written: a beat list agreed in the chat, then one `write_scene` per scene (timed shots inside each), all filed in one project and held to the same photos with the same roles so the scenes cut together. Use when someone wants a whole ad, short or sequence planned, asks for a storyboard or a beat sheet, has several places or moments in one idea, or wants alternates of a scene. NOT for writing one scene's prompt (write-scene), NOT for a spoken script (youtube-script), NOT for pricing or rendering (price-and-hand-off), and NOT for choosing between ideas before the piece is settled (ideas-and-projects).
 ---
 
 # Storyboard
 
-A piece in Zero Page Studio is a project holding several scenes. A scene is ONE
+A piece in Phantra is a project holding several scenes. A scene is ONE
 prompt of 4 to 30 seconds, rendered one timed shot at a time; separate scenes
 are rendered separately and joined afterwards in the library. The storyboard
 is the beat list that decides how many scenes there are, what each shows, and
