@@ -77,9 +77,8 @@ for its light or palette only, a `title`, and `project_id` when it belongs to
 a project. The reply gives the scene's id, how many shots were written and its
 link in the studio. Nothing is spent.
 
-**A scene with no photos is saved as a draft.** The reply says so
-(`needs_reference`): add a photo and call `write_scene` again with the draft's
-`scene_id` and the `refs`. A draft cannot be priced or rendered.
+**A scene with no photos is saved as a draft** (`needs_reference`): it cannot
+be priced; add a photo and `write_scene` again with its `scene_id` and `refs`.
 
 **To change a scene**, call `write_scene` with its `scene_id` and the whole
 new prompt. This replaces the text the scene had, so show the person the new
@@ -87,14 +86,13 @@ version and get their yes first. A ref `elements` did not list is refused.
 
 ## Then
 
-Price-and-hand-off: `quote` the scene (the keyframes and the clip, in credits,
-with a signed token per render, valid for an hour), show the person the price
-and WAIT for their yes in the chat, and only then `approve` with `what`
-("keyframes" or "clip"), the quote's `tokens` and the same renderer choice;
-`job` until done, then `scene` for the clips. One yes covers one quote, once:
-never approve on the person's behalf, never twice. A refusal for credits means
-stop; credits are added in the studio. The scene's page in the studio (the link
-`scene` gives) is the other place the person can approve it.
+Price-and-hand-off: `quote` the scene (keyframes and clip in credits, a signed
+token per render, good for an hour); show the price and WAIT for the person's
+yes in the chat; only then `approve` with `what` ("keyframes" or "clip"), the
+quote's `tokens` and the same renderer choice; `job` until done, `scene` for
+the clips. One yes covers one quote, once: never on their behalf, never twice.
+Refused for credits: stop; credits are added in the studio. The scene's page in
+the studio (the link `scene` gives) is the other place they can approve it.
 
 ## Do not
 
