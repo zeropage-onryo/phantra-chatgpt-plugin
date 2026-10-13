@@ -23,13 +23,14 @@
       "interface": {
         "displayName": "Zero Page Studio",
         "shortDescription": "AI images and video, in chat",
-        "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Zero Page Studio library and projects, where you can keep working. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Zero Page Studio account.",
+        "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Zero Page Studio library and projects, where you can keep working. Edit a still, animate it, upscale a clip or add sound to it with effects, quoted the same way. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Zero Page Studio account.",
         "developerName": "Zero Page Studio",
         "category": "Creativity",
         "capabilities": [
           "Write scenes",
           "Generate images",
           "Render video",
+          "Apply effects",
           "Edit clips",
           "Manage projects"
         ],
@@ -110,7 +111,7 @@
           "GB",
           "AU"
         ],
-        "release_notes": "Initial release: images and video from an idea or a product photo, on the studio's image and video models; every still and render quoted in credits and made on your yes; projects, scenes and a library of what you made; trims, new shapes, joins and download links at no credit cost; balance and history; recipes and insights."
+        "release_notes": "Initial release: images and video from an idea or a product photo, on the studio's image and video models; every still and render quoted in credits and made on your yes; effects on stills and clips; projects, scenes and a library of what you made; trims, new shapes, joins and download links at no credit cost; balance and history; recipes and insights."
       }
     }
   }

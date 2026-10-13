@@ -14,13 +14,15 @@ description: Explain what is free and what costs credits in Zero Page Studio, re
 free edits -- `reformat`, `trim_clip`, `assemble_clips` -- run on the studio's own server
 and spend nothing: each starts a job you follow with `job` (`wait` holds up to 15 seconds)
 and makes a NEW item in the library, the source untouched. Writing the prompt happens in
-this chat. Only `generate_image` and `approve` spend, and each is quoted first.
+this chat. Only `generate_image`, `apply_effect` and `approve` spend, each quoted first.
 
 ## What costs credits
 
 - **A still**: `generate_image` WITHOUT `quote_token` draws nothing and answers the quote:
   the credits (`image_models` lists each model's at 1:1), the balance after
   it and a `quote_token`. The SAME call WITH that token starts the job.
+- **An effect** (`effects` lists them): `apply_effect` WITHOUT `quote_token` runs nothing
+  and answers the quote; the SAME call WITH its token starts the job (effects).
 - **Keyframes**: one still per shot. `quote` says how many are still to draw and the
   credits for `each`; `approve` with `what="keyframes"` and its `tokens` draws them.
 - **The clip**: one render per shot still without a clip, priced by model, length and

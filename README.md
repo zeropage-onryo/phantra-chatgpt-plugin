@@ -6,10 +6,10 @@ the icons. What it does and how to connect it: <https://zeropage.studio/mcp>.
 
 - `plugin.json`: identity, the listing (`extensions.com.openai.interface`), the onboarding skill,
   the review cases (five positive, three negative), `commerce: false`, publication.
-- `mcp.json`: the server, `https://api.zeropage.studio/mcp` (35 tools), OAuth with dynamic client
+- `mcp.json`: the server, `https://api.zeropage.studio/mcp` (37 tools), OAuth with dynamic client
   registration. A still is drawn and a scene rendered from the chat, each after a quote in
   credits and the person's explicit yes.
-- `skills/`: thirty skills for this server (listed below), one of them `setup`, which OpenAI
+- `skills/`: thirty-one skills for this server (listed below), one of them `setup`, which OpenAI
   runs after install.
 - `assets/`: the four icons.
 - `scripts/`: the package check and the tool list it reads. Not part of the ZIP.
@@ -30,7 +30,7 @@ Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
 ## The skills
 
-Thirty, each a `SKILL.md` of at most a hundred lines that names only tools the server has.
+Thirty-one, each a `SKILL.md` of at most a hundred lines that names only tools the server has.
 
 | for | skills |
 |---|---|
@@ -38,6 +38,7 @@ Thirty, each a `SKILL.md` of at most a hundred lines that names only tools the s
 | ads | `product-ad-set`, `ad-formats`, `ad-variations`, `product-shots`, `explainer` |
 | creator-style video | `ugc-ad`, `ugc-review`, `ugc-unboxing`, `ugc-tutorial`, `ugc-try-on` |
 | covers and scripts | `thumbnails`, `youtube-script` |
+| changing what is made | `effects` |
 | writing a scene | `write-scene`, `storyboard`, `hooks-and-first-seconds`, `camera-moves`, `look-matching`, `sound-plan`, `model-prompting`, `series-and-continuity` |
 | pricing, finishing, delivering | `price-and-hand-off`, `credits-and-limits`, `edit-and-deliver`, `platform-delivery` |
 | a person's own style and clients | `brand-kit-from-my-work`, `client-treatment` |

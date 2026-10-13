@@ -6,10 +6,8 @@
 # A name followed by "?" is also an ordinary word in a tool's answer or arguments
 # (`renders` is a field of `quote`; `reference` is an upload purpose). The check
 # prints each use for a person to read instead of failing on it.
-apply_effect
 cancel_job
 edit_clip
-effects
 element_sheet
 generate_video
 images_for

@@ -6,9 +6,9 @@ description: The habits every Zero Page Studio skill assumes, loaded before any 
 # Use the studio well
 
 Every other skill in this plugin assumes these five habits. Read this once,
-then keep to it on every call. Only `generate_image` (a still) and `approve`
-(a scene's keyframes or clip) spend credits, each after a quote and the person's
-yes in this chat; the rest reads the studio, saves text or starts a free edit.
+then keep to it on every call. Only `generate_image` (a still), `apply_effect`
+(an effect) and `approve` (a scene's keyframes or clip) spend credits, each after a
+quote and the person's yes; the rest reads, saves text or starts a free edit.
 
 ## 1. Reuse what exists before making anything
 
@@ -43,10 +43,10 @@ no element fits:
 
 ## 3. Quote before anything costs credits
 
-Rendering is the only thing that costs, and it is quoted first. For a scene,
+Making media is the only thing that costs, and it is quoted first. For a scene,
 `quote` with the `scene_id` before anyone decides: the keyframes, the clip per
-shot, the balance. For a still, the first `generate_image` call, with no
-`quote_token`, IS the quote and draws nothing. Say the price in the quote's own
+shot, the balance. For a still or an effect, the first `generate_image` or
+`apply_effect` call, with no `quote_token`, IS the quote. Say the price in the quote's own
 words: never your own arithmetic, never a currency; credits only.
 `recommend_model`, `video_models` and `image_models` help choose a model;
 `quote` with `model` or `frame` prices that choice exactly.
@@ -58,8 +58,8 @@ nothing: they start jobs, so poll `job` (`wait` holds up to 15 seconds). A
 render is quote, yes, approve: show the quote's price, wait for an explicit yes
 in this chat (never approve on the person's behalf), then spend once -- a scene
 through `approve` with the `scene_id`, `what` (keyframes or clip), the quote's
-`tokens` and the same renderer choice; a still through `generate_image` again,
-the SAME arguments plus its `quote_token`. Tokens last one hour; a `quote_token`
+`tokens` and the same renderer choice; a still or an effect through the same call
+again, the SAME arguments plus its `quote_token`. Tokens last one hour; a `quote_token`
 works once (a repeat answers `already_used` and charges nothing), a changed
 argument is refused, and a new render is a new quote and a new yes; never call
 `approve` twice on one yes. Then `job` with `wait` until done, and `scene` shows
@@ -70,7 +70,7 @@ credits than the workspace has, and that credits are added in the studio.
 
 Every edit makes a new item: `reformat` and `trim_clip` make copies,
 `assemble_clips` a new clip, `duplicate_scene` a fresh scene, `save_recipe` a
-new version, `set_preferences` a new entry, `generate_image` a new still. The
+new version, `set_preferences` a new entry, a still or an effect a new item. The
 one exception is `write_scene` with a `scene_id`: it replaces that scene's TEXT.
 Show the person the whole new version and get a yes before calling it.
 

@@ -1,14 +1,14 @@
 ---
 name: sound-plan
-description: Plan the sound of a Zero Page Studio scene -- write the "No background music. Only diegetic sound:" line and each shot's own sound, say which video models render sound with the picture, and explain where music and the voice go (a music bed in the studio's editor or through `assemble_clips`; a voice the person records). Use when someone asks what a scene will sound like, wants music, a voice-over, narration, a sound effect or silence, or asks why a clip is silent. NOT for writing the whole scene (write-scene), NOT for a full explainer (explainer), and NOT for pricing or rendering (price-and-hand-off).
+description: Plan the sound of a Zero Page Studio scene -- write the "No background music. Only diegetic sound:" line and each shot's own sound, say which video models render sound with the picture, and explain where music and the voice go (a music bed in the studio's editor or through `assemble_clips`; a voice the person records). Use when someone asks what a scene will sound like, wants music, a voice-over, narration, a sound effect or silence, or asks why a clip is silent. NOT for writing the whole scene (write-scene), NOT for a full explainer (explainer), NOT for adding sound to a finished clip (effects), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # Sound plan
 
 A scene's sound is written into the prompt as DIEGETIC sound: what you would
 hear standing in that scene. Music, narration and captions are not in the
-prompt. Nothing in this plugin generates a voice, a song or a sound effect;
-only the render spends credits, after the person sees its price and says yes.
+prompt. Nothing in this plugin generates a voice or a song. Ambience can be
+added to a finished clip with an effect, quoted first like a render (effects).
 
 ## Where each sound comes from
 
@@ -17,6 +17,7 @@ only the render spends credits, after the person sees its price and says yes.
 | what the scene itself makes (steps, a kettle, rain) | the prompt's sound line, rendered with the picture by a model that does sound |
 | music | a bed under the clips: the studio's editor, or `assemble_clips` with `music` = an audio `asset:<id>` |
 | a voice, narration, a spoken line | recorded by the person and laid on in the studio's editor |
+| ambience or sound effects on a finished clip | an effect, quoted in credits first (effects) |
 
 `upload_link` takes pictures and clips, never audio: a music file goes in
 through the studio's editor, and `library` with `kind` audio lists it as an

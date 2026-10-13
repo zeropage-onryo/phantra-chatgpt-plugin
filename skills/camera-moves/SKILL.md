@@ -1,6 +1,6 @@
 ---
 name: camera-moves
-description: A vocabulary of camera moves and framings for Zero Page Studio scene prompts -- push-in, pull-back, orbit, handheld, locked-off, rack focus, whip pan, crane, top-down and POV; close, medium and wide; eye, chest and low height -- with when each works in a 2-10 second shot, how to write it into a timed beat, and the rule of one move per shot. Use when someone asks how to shoot a beat, names a move, wants a shot calmer or more alive, or asks what framing to use. NOT for writing the whole scene (write-scene), NOT for the light, palette and texture of a look (look-matching), and NOT for the order of scenes (storyboard).
+description: A vocabulary of camera moves and framings for Zero Page Studio scene prompts -- push-in, pull-back, orbit, handheld, locked-off, rack focus, whip pan, crane, top-down and POV; close, medium and wide; eye, chest and low height -- with when each works in a 2-10 second shot, how to write it into a timed beat, and the rule of one move per shot. Use when someone asks how to shoot a beat, names a move, wants a shot calmer or more alive, or asks what framing to use. NOT for a camera move applied to a still that already exists (effects), NOT for writing the whole scene (write-scene), NOT for the light, palette and texture of a look (look-matching), and NOT for the order of scenes (storyboard).
 ---
 
 # Camera moves
