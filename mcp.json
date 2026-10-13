@@ -1,9 +1,9 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "zeropage-studio": {
+    "phantra": {
       "type": "streamable-http",
-      "url": "https://api.zeropage.studio/mcp",
+      "url": "https://api.phantra.ai/mcp",
       "extensions": {
         "com.openai": {
           "auth": {

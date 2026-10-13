@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "zeropage-studio",
-  "version": "1.0.0",
+  "name": "phantra",
+  "version": "1.1.0",
   "description": "Make AI images and video from an idea or a product photo, right in the chat. Every still and clip is quoted in credits first and made only on your yes.",
   "author": {
-    "name": "Zero Page Studio",
-    "url": "https://zeropage.studio"
+    "name": "Phantra",
+    "url": "https://phantra.ai"
   },
-  "homepage": "https://zeropage.studio/mcp",
-  "repository": "https://github.com/zeropage-onryo/zeropage-studio-chatgpt-plugin",
+  "homepage": "https://phantra.ai/connector",
+  "repository": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin",
   "license": "MIT",
   "keywords": [
     "video",
@@ -21,10 +21,10 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Zero Page Studio",
+        "displayName": "Phantra",
         "shortDescription": "AI images and video, in chat",
-        "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Zero Page Studio library and projects, where you can keep working. Edit a still, animate it, upscale a clip or add sound to it with effects, quoted the same way. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Zero Page Studio account.",
-        "developerName": "Zero Page Studio",
+        "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Phantra library and projects, where you can keep working. Edit a still, animate it, upscale a clip or add sound to it with effects, quoted the same way. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Phantra account.",
+        "developerName": "Phantra",
         "category": "Creativity",
         "capabilities": [
           "Write scenes",
@@ -34,10 +34,10 @@
           "Edit clips",
           "Manage projects"
         ],
-        "websiteURL": "https://zeropage.studio/mcp",
-        "supportURL": "https://github.com/zeropage-onryo/zeropage-studio-chatgpt-plugin/issues",
-        "privacyPolicyURL": "https://zeropage.studio/privacy",
-        "termsOfServiceURL": "https://zeropage.studio/terms",
+        "websiteURL": "https://phantra.ai/connector",
+        "supportURL": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin/issues",
+        "privacyPolicyURL": "https://phantra.ai/privacy",
+        "termsOfServiceURL": "https://phantra.ai/terms",
         "defaultPrompt": [
           "Draw an ad still for my energy drink",
           "Write and render a 10-second ad for my coffee brand",
@@ -100,9 +100,9 @@
             }
           ]
         },
-        "demo_recording_url": "https://zeropage.studio/connector#demo-TO-RECORD",
+        "demo_recording_url": "https://phantra.ai/connector#demo-TO-RECORD",
         "commerce": false,
-        "commerce_description": "Nothing is sold through the plugin. Renders use the credits of the person's existing Zero Page Studio account; the plugin shows no plans, starts no subscription and links to no purchase page."
+        "commerce_description": "Nothing is sold through the plugin. Renders use the credits of the person's existing Phantra account; the plugin shows no plans, starts no subscription and links to no purchase page."
       },
       "publication": {
         "countries": [
