@@ -1,6 +1,6 @@
 ---
 name: storyboard
-description: Plan a piece as a sequence of scenes in Zero Page Studio before any scene is written: a beat list agreed in the chat, then one `write_scene` per scene (timed shots inside each), all filed in one project and held to the same photos with the same roles so the scenes cut together. Use when someone wants a whole ad, short or sequence planned, asks for a storyboard or a beat sheet, has several places or moments in one idea, or wants alternates of a scene. NOT for writing one scene's prompt (write-scene), NOT for pricing or rendering (price-and-hand-off), and NOT for choosing between ideas before the piece is settled (ideas-and-projects).
+description: Plan a piece as a sequence of scenes in Zero Page Studio before any scene is written: a beat list agreed in the chat, then one `write_scene` per scene (timed shots inside each), all filed in one project and held to the same photos with the same roles so the scenes cut together. Use when someone wants a whole ad, short or sequence planned, asks for a storyboard or a beat sheet, has several places or moments in one idea, or wants alternates of a scene. NOT for writing one scene's prompt (write-scene), NOT for a spoken script (youtube-script), NOT for pricing or rendering (price-and-hand-off), and NOT for choosing between ideas before the piece is settled (ideas-and-projects).
 ---
 
 # Storyboard

@@ -1,6 +1,6 @@
 ---
 name: ugc-ad
-description: Write a UGC-style ad scene in Zero Page Studio -- a person talking to their phone camera about a product they hold -- rendered against the person's own face and their own product photos in a handheld phone feel, with every spoken line and every claim coming from the person. Use when someone asks for a UGC ad, a creator-style ad, a testimonial-style spot, a talk-to-camera product video or "something that looks like a customer filmed it". NOT for a product-only scene with no face (product-shots), NOT for A/B versions of an ad already written (ad-variations), NOT for the general scene shape (write-scene), and NOT for pricing or rendering (price-and-hand-off).
+description: Write a UGC-style ad scene in Zero Page Studio -- a person talking to their phone camera about a product they hold -- rendered against the person's own face and their own product photos in a handheld phone feel, with every spoken line and every claim coming from the person. Use when someone asks for a UGC ad, a creator-style ad, a talk-to-camera product video or "something that looks like a customer filmed it". NOT for a verdict after using the product (ugc-review), an unboxing (ugc-unboxing), a step-by-step how-to (ugc-tutorial) or a clothing try-on (ugc-try-on), NOT for a product-only scene with no face (product-shots), NOT for A/B versions of an ad already written (ad-variations), NOT for the general scene shape (write-scene), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # UGC-style ad

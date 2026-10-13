@@ -1,6 +1,6 @@
 ---
 name: platform-delivery
-description: Deliver a Zero Page Studio video in the shape and length each platform wants (Reels, TikTok and Shorts in 9:16; YouTube in 16:9; a feed post in 1:1 or 4:5) by setting a default length with `set_preferences`, writing each scene to its platform's length, reformatting a finished clip per platform with pad or crop, and handing over a download link. Use when someone names a platform, asks what size or how long a video should be, wants versions for several platforms, or asks whether the studio can post it (it cannot). NOT for the edit steps in detail (edit-and-deliver), NOT for writing the shots (write-scene, hooks-and-first-seconds), and NOT for pricing or rendering (price-and-hand-off).
+description: Deliver a Zero Page Studio video in the shape and length each platform wants (Reels, TikTok and Shorts in 9:16; YouTube in 16:9; a feed post in 1:1 or 4:5) by setting a default length with `set_preferences`, writing each scene to its platform's length, reformatting a finished clip per platform with pad or crop, and handing over a download link. Use when someone names a platform, asks what size or how long a video should be, wants versions for several platforms, or asks whether the studio can post it (it cannot). NOT for the edit steps in detail (edit-and-deliver), NOT for a cover image (thumbnails), NOT for writing the shots (write-scene, hooks-and-first-seconds), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # Platform delivery
