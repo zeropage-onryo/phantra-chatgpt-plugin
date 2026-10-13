@@ -96,7 +96,7 @@ the studio (the link `scene` gives) is the other place they can approve it.
 
 ## Do not
 
-- Never invent a photo ref, and never pass a URL.
-- Never leave a `{placeholder}` in the prompt; the tool refuses it.
-- Never write a window longer than 10 seconds or shorter than 2.
-- Never describe the look by naming a film, a brand or a person.
+- Never invent a photo ref, never pass a URL, and never leave a
+  `{placeholder}` in the prompt (the tool refuses it).
+- Never write a window over 10 seconds or under 2, and never describe the look
+  by naming a film, a brand or a person.
