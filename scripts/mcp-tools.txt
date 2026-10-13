@@ -1,6 +1,8 @@
 # The tools on https://api.zeropage.studio/mcp, one per line.
 # Source: zeropage-onryo/video-pipeline, src/mcp_server.py, LISTED_TOOLS.
 # Read off origin/main at 572d5cb on 2026-10-13. Re-read it when the server changes.
+# `effects` and `apply_effect` are NOT on origin/main yet: they come with video-pipeline's
+# branch claude/effects-on-mcp. This package may be submitted only after that is deployed.
 projects
 project
 project_chat
@@ -10,7 +12,9 @@ add_element
 upload_link
 image_models
 video_models
+effects
 generate_image
+apply_effect
 write_scene
 scene
 quote

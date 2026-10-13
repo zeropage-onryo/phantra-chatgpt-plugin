@@ -1,6 +1,6 @@
 ---
 name: edit-and-deliver
-description: Finish a video from the chat with Zero Page Studio's free edits: find the clips in the library, trim one, join several (a cut or a crossfade, music as an audio file uploaded in the studio's editor), reformat to a platform's shape, and hand over a download link. Use when someone says trim it, cut these together, put the music under it, make a square or vertical version, send me the file, or asks for a download link. Every result is a new item, sources are untouched, and nothing here spends credits. NOT for rendering or pricing a scene (price-and-hand-off), NOT for which shape and length each platform wants (platform-delivery), and NOT for writing the scene (write-scene).
+description: Finish a video from the chat with Zero Page Studio's free edits: find the clips in the library, trim one, join several (a cut or a crossfade, music as an audio file uploaded in the studio's editor), reformat to a platform's shape, and hand over a download link. Use when someone says trim it, cut these together, put the music under it, make a square or vertical version, send me the file, or asks for a download link. Every result is a new item, sources are untouched, and nothing here spends credits. NOT for changing the picture itself -- an upscale, added sound, a generated new shape, a cut-out (effects), NOT for rendering or pricing a scene (price-and-hand-off), NOT for which shape and length each platform wants (platform-delivery), and NOT for writing the scene (write-scene).
 ---
 
 # Edit and deliver
