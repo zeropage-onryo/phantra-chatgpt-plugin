@@ -1,41 +1,54 @@
 ---
 name: setup
-description: The first minutes with Zero Page Studio in ChatGPT: sign in once, see what the workspace holds, and learn the one rule about spending. Use right after the plugin is installed, when the person asks how to start, or when a call answers that the sign-in has no workspace yet. NOT for the work itself: writing a scene (write-scene), pricing and rendering (price-and-hand-off), choosing ideas (ideas-and-projects), or explaining credits (credits-and-limits).
+description: The first minutes with Zero Page Studio in ChatGPT: what the person can make here, the one sign-in, a look at what the workspace holds, and the one rule about spending. Use right after the plugin is installed, when the person asks how to start or what this can do, or when a call answers that the sign-in has no workspace yet. NOT for the work itself: writing a scene (write-scene), pricing and rendering (price-and-hand-off), choosing ideas (ideas-and-projects), or explaining credits (credits-and-limits).
 ---
 
 # Setting up Zero Page Studio
 
-Zero Page Studio is the person's own AI production studio: projects, their
-reference photos (elements), scenes written as timed shots, and the renders
-those scenes become. This plugin works in their existing studio account.
+Zero Page Studio is an AI image and video generator the person already has
+an account with. This plugin works inside that account, from the chat.
 
-## 1. The sign-in
+## 1. What they can make here
+
+- **A still**: an ad image, a product shot, a cover. `image_models` lists the
+  models; `generate_image` draws one image per call.
+- **A video**: you write the scene with them as timed shots, `write_scene`
+  saves it, `quote` prices it and `approve` renders it, one clip per shot.
+- **A finished file**: `reformat` (a new shape), `trim_clip`, `assemble_clips`
+  (join clips) and `share_link` (a download link). These cost no credits.
+- Everything made lands in their studio: `library` lists it, and `projects`
+  keeps related scenes together with a brief and a look.
+
+Start from what they want made. A sentence is enough for a still. A scene is
+rendered against at least one picture, so before pricing one, ask for a
+product or face photo (`upload_link` for a file on their device, `add_element`
+for a picture or product page by its address), or draw a still first and keep
+it with `add_element` (`source` is its `gen:<id>`).
+
+## 2. The sign-in
 
 The person signs in once at https://zeropage.studio to create their workspace,
 then connects this plugin, which opens the studio's sign-in and a consent
 page. If a call answers that the sign-in has no workspace yet, say exactly
 that: sign in once on the site, then reconnect.
 
-## 2. Look before you make
+## 3. Look before you make
 
 Call `whoami` (the workspace and who is signed in), then `recent` (the latest
-projects, scenes and renders) and `elements` (the photos every scene is held
-to). Say in two sentences what is there. A new workspace has no elements yet:
-offer `upload_link` (a one-time page for a photo from their phone) or
-`add_element` (a picture or product page by address) before any scene.
+projects, scenes and renders). Say in two sentences what is there. A new
+workspace is empty: say so and offer one of the three things above.
 
-## 3. The one rule about spending
+## 4. The one rule about spending
 
-Reading, writing scenes, the free edits (`reformat`, `trim_clip`,
-`assemble_clips`, `share_link`) and everything else cost nothing. Only a
-still (`generate_image`) and a render (`approve`, after `quote`) spend the
-account's credits, and each one is quoted first: show the person the price
-in credits and the balance, wait for their yes in this chat, and only then
-make the call that spends. Never say yes for them, and never spend twice. If
-a quote says the credits are short, say so and that credits are added in the
-studio; start nothing.
+Reading, writing scenes, the free edits and everything else cost nothing.
+Only a still (`generate_image`) and a render (`approve`, after `quote`) spend
+the account's credits, and each one is quoted first: show the person the
+price in credits and the balance, wait for their yes in this chat, and only
+then make the call that spends. Never say yes for them, and never spend
+twice. If a quote says the credits are short, say so and that credits are
+added in the studio; start nothing.
 
-## 4. Where to go next
+## 5. Where to go next
 
 - "Start a project" → start-a-project. "Write the scene" → write-scene.
 - "What would it cost, render it" → price-and-hand-off.

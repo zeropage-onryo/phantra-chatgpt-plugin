@@ -1,0 +1,35 @@
+# Tools the studio has on ANOTHER door (its desktop server), or had once.
+# None of them is on /mcp, so a skill in this package must not name one as a tool.
+# Source: video-pipeline src/mcp_server.py at 572d5cb (TITLES and STUDIO_TOOLS minus
+# LISTED_TOOLS) and the idea-board tools removed on 2026-10-11.
+#
+# A name followed by "?" is also an ordinary word in a tool's answer or arguments
+# (`renders` is a field of `quote`; `reference` is an upload purpose). The check
+# prints each use for a person to read instead of failing on it.
+apply_effect
+cancel_job
+edit_clip
+effects
+element_sheet
+generate_video
+images_for
+import_file
+prepare_post
+prompt_craft
+save_chat
+imagine_reference
+add_spark
+renders ?
+reference ?
+generate ?
+images ?
+research ?
+board ?
+idea ?
+capture ?
+pick ?
+shoot ?
+archive ?
+stats ?
+sparks ?
+tonight ?

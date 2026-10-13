@@ -1,0 +1,38 @@
+# The tools on https://api.zeropage.studio/mcp, one per line.
+# Source: zeropage-onryo/video-pipeline, src/mcp_server.py, LISTED_TOOLS.
+# Read off origin/main at 572d5cb on 2026-10-13. Re-read it when the server changes.
+projects
+project
+project_chat
+create_project
+elements
+add_element
+upload_link
+image_models
+video_models
+generate_image
+write_scene
+scene
+quote
+approve
+job
+library
+share_link
+reformat
+trim_clip
+assemble_clips
+balance
+search
+whoami
+recent
+credit_history
+recommend_model
+duplicate_scene
+feedback
+preferences
+set_preferences
+recipes
+recipe
+save_recipe
+what_works
+score_caption
