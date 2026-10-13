@@ -1,6 +1,6 @@
 ---
 name: explainer
-description: Plan and write a short explainer video in Zero Page Studio -- what it is, how it works, why now -- as timed shots held to the person's own product or place photos, then join the rendered scenes and make one copy per platform. Use when someone asks for an explainer, a how-it-works video, a product walkthrough, a launch clip or "a video that tells people what this does". NOT for one dramatic scene (write-scene), NOT for pricing or rendering (price-and-hand-off), NOT for the sound in detail (sound-plan), and NOT for choosing a look (look-matching).
+description: Plan and write a short explainer video in Zero Page Studio -- what it is, how it works, why now -- as timed shots held to the person's own product or place photos, then join the rendered scenes and make one copy per platform. Use when someone asks for an explainer, a how-it-works video, a product walkthrough, a launch clip or "a video that tells people what this does". NOT for one dramatic scene (write-scene), NOT for a long-form spoken script (youtube-script), NOT for a person showing how they use it (ugc-tutorial), NOT for pricing or rendering (price-and-hand-off), NOT for the sound in detail (sound-plan), and NOT for choosing a look (look-matching).
 ---
 
 # Explainer
@@ -65,9 +65,9 @@ several scenes, one per beat, each saved on its own and joined later.
 ## The render, then the join
 
 1. `quote` prices the scene in credits, beside the `balance`: `keyframes` (one
-   still per shot, 10 `each` on the default model) and `clip` (one render per
-   timed shot, each with credits and a `token`; the three shots above on LTX
-   2.3 are 87 each, 261 in all). Say the credits and WAIT for a yes in chat.
+   still per shot, with the credits for `each`) and `clip` (one render per
+   timed shot, each with its credits and a `token`, and the total for all
+   three shots above). Say the quote's credits and WAIT for a yes in chat.
 2. On the yes, `approve` with `scene_id`, `what` "clip", the quote's `tokens`
    and the renderer choice it priced (`provider`, `model`, `frame`, `duration`):
    every shot without a clip yet, at exactly the quoted credits. `what`

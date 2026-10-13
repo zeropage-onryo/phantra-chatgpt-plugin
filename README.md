@@ -9,7 +9,8 @@ the icons. What it does and how to connect it: <https://zeropage.studio/mcp>.
 - `mcp.json`: the server, `https://api.zeropage.studio/mcp` (35 tools), OAuth with dynamic client
   registration. A still is drawn and a scene rendered from the chat, each after a quote in
   credits and the person's explicit yes.
-- `skills/`: the studio's skills for this server, plus `setup`, which OpenAI runs after install.
+- `skills/`: thirty skills for this server (listed below), one of them `setup`, which OpenAI
+  runs after install.
 - `assets/`: the four icons.
 - `scripts/`: the package check and the tool list it reads. Not part of the ZIP.
 
@@ -26,6 +27,23 @@ skill names.
 Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
     zip -r ../zeropage-studio-chatgpt-1.0.0.zip plugin.json mcp.json assets skills README.md LICENSE
+
+## The skills
+
+Thirty, each a `SKILL.md` of at most a hundred lines that names only tools the server has.
+
+| for | skills |
+|---|---|
+| getting started | `setup`, `zeropage-use`, `start-a-project`, `ideas-and-projects` |
+| ads | `product-ad-set`, `ad-formats`, `ad-variations`, `product-shots`, `explainer` |
+| creator-style video | `ugc-ad`, `ugc-review`, `ugc-unboxing`, `ugc-tutorial`, `ugc-try-on` |
+| covers and scripts | `thumbnails`, `youtube-script` |
+| writing a scene | `write-scene`, `storyboard`, `hooks-and-first-seconds`, `camera-moves`, `look-matching`, `sound-plan`, `model-prompting`, `series-and-continuity` |
+| pricing, finishing, delivering | `price-and-hand-off`, `credits-and-limits`, `edit-and-deliver`, `platform-delivery` |
+| a person's own style and clients | `brand-kit-from-my-work`, `client-treatment` |
+
+Not here, because the server has no tool for them yet: narration or a voice, subtitles on the
+video, and a website builder.
 
 ## Before submitting
 

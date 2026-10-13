@@ -247,7 +247,7 @@ def check_skills(plugin: str, tools: set[str], show_tools: bool) -> None:
                     warn(f"{folder.name}:{n} `{token}` is not a tool on /mcp; fine as a "
                          f"field or a value: {line.strip()[:90]}")
             if n > end and PRICE.search(line):
-                warn(f"{folder.name}:{n} types a price; the tools give prices: "
+                fail(f"{folder.name}:{n} types a price; the tools give prices: "
                      f"{line.strip()[:90]}")
         for other in re.findall(r"\(([a-z][a-z0-9-]+)\)", description):
             if other not in {f.name for f in folders} and "-" in other:

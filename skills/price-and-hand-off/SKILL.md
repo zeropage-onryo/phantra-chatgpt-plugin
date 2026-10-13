@@ -31,9 +31,9 @@ only then call the tool that spends. What you do here:
    price a different renderer; the defaults are the studio's. The tokens are
    good for one hour.
 3. **Say the price, from the quote, never your own arithmetic**, and ask:
-   "2 keyframes for 20 credits, then 2 shots of 6s on LTX 2.3 for 174 credits
-   (87 each); your balance is 491. Draw the keyframes, render the clip, or
-   both?" A timed beat is fitted up to the model's shortest length (a 3-second
+   "2 keyframes for <their credits>, then 2 shots of 6s on LTX 2.3 for <the
+   clip's credits>; your balance is <balance>. Draw the keyframes, render the
+   clip, or both?" A timed beat is fitted up to the model's shortest length (a 3-second
    beat is a 6-second LTX 2.3 shot), so say the quote's seconds, not the scene's.
 4. **Wait for an explicit yes in this conversation.** Then `approve` with the
    scene's id, `what` ("keyframes" draws one still per shot at `each`; "clip"
@@ -52,8 +52,8 @@ only then call the tool that spends. What you do here:
 The same rule, two calls. `image_models` lists the models with their credits.
 The first `generate_image` call, with no `quote_token`, draws nothing and
 answers a quote: `model`, `label`, `credits`, `balance`, `balance_after`,
-`quote_token`, `expires_at`. Say it -- "a FLUX 1.1 Pro still for 10 credits;
-your balance would go from 501 to 491" -- and wait for the yes. Then call again
+`quote_token`, `expires_at`. Say it -- "a FLUX 1.1 Pro still for <credits>;
+your balance would go from <balance> to <balance_after>" -- and wait for the yes. Then call again
 with the SAME arguments plus that `quote_token`: it answers a `job_id`, and
 `job` until `done` carries the image's address and its `ref` (`gen:<id>`, which
 `add_element` takes as a `source`). A token works once: a repeat answers

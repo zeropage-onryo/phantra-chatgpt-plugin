@@ -1,6 +1,6 @@
 ---
 name: platform-delivery
-description: Deliver a Zero Page Studio video in the shape and length each platform wants (Reels, TikTok and Shorts in 9:16; YouTube in 16:9; a feed post in 1:1 or 4:5) by setting a default length with `set_preferences`, writing each scene to its platform's length, reformatting a finished clip per platform with pad or crop, and handing over a download link. Use when someone names a platform, asks what size or how long a video should be, wants versions for several platforms, or asks whether the studio can post it (it cannot). NOT for the edit steps in detail (edit-and-deliver), NOT for writing the shots (write-scene, hooks-and-first-seconds), and NOT for pricing or rendering (price-and-hand-off).
+description: Deliver a Zero Page Studio video in the shape and length each platform wants (Reels, TikTok and Shorts in 9:16; YouTube in 16:9; a feed post in 1:1 or 4:5) by setting a default length with `set_preferences`, writing each scene to its platform's length, reformatting a finished clip per platform with pad or crop, and handing over a download link. Use when someone names a platform, asks what size or how long a video should be, wants versions for several platforms, or asks whether the studio can post it (it cannot). NOT for the edit steps in detail (edit-and-deliver), NOT for a cover image (thumbnails), NOT for writing the shots (write-scene, hooks-and-first-seconds), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # Platform delivery
@@ -69,7 +69,7 @@ Person: "This is for Reels, and I want a feed version too."
 2. `write_scene` with seconds=10 and "Ultra-realistic grounded ... in 9:16"
    as the opening line; two windows fill 0 to 10 s.
 3. `quote` with model=ltx2.3 prices the two windows as two six-second LTX 2.3
-   shots, 87 credits each, 174 in all, against the balance. On the person's
+   shots, each with its credits, and their total against the balance. On the person's
    yes, `approve` what=clip with the two tokens and the same renderer choice;
    `job` wait=15 until done. `scene` shows the clip has landed; `library`
    with kind=video lists it newest first as gen:920.

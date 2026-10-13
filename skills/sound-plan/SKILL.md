@@ -68,8 +68,8 @@ have sound: plan for its sound to be laid on in the editor.
 `quote` with `model` prices the scene on the one chosen and spends nothing:
 `keyframes` (the stills to draw, `each` in credits), `clip` (one render per
 timed shot, each with its credits and a `token`), `balance` and
-`credits_needed`. Repeat the quote's own numbers -- for example `each` 10 for a
-still, 87 for a six-second shot on LTX 2.3 -- never a guess, and WAIT for a yes
+`credits_needed`. Repeat the quote's own numbers -- `each` for a still, the
+credits of each shot's render -- never a guess, and WAIT for a yes
 in this chat; never say it for the person. Only then `approve` with the
 `scene_id`, `what` ("keyframes" draws the stills, "clip" renders every shot
 without one), the quote's `tokens` and the SAME `provider`, `model`, `frame`

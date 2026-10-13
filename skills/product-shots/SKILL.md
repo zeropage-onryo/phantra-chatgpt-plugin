@@ -1,6 +1,6 @@
 ---
 name: product-shots
-description: Write a product-led scene in Zero Page Studio -- the product itself as the subject, in macro and turntable shots with its surfaces and reflections written into the style block -- held to the person's own product photos, and say what a 4:5 or 1:1 reformat does to the clip afterwards. Use when someone asks for product shots, a product video, a pack shot in motion, a hero clip of a product or "make my product look good". A pack-shot still can be drawn here too (`generate_image`, quoted first); the scene is the clip. NOT for a person talking to camera (ugc-ad), NOT for A/B versions of a scene (ad-variations), NOT for the general scene shape (write-scene), and NOT for pricing or rendering (price-and-hand-off).
+description: Write a product-led scene in Zero Page Studio -- the product itself as the subject, in macro and turntable shots with its surfaces and reflections written into the style block -- held to the person's own product photos, and say what a 4:5 or 1:1 reformat does to the clip afterwards. Use when someone asks for product shots, a product video, a pack shot in motion, a hero clip of a product or "make my product look good". A pack-shot still can be drawn here too (`generate_image`, quoted first); the scene is the clip. NOT for a person talking to camera (ugc-ad), NOT for a set of ad stills in several styles (product-ad-set), NOT for A/B versions of a scene (ad-variations), NOT for the general scene shape (write-scene), and NOT for pricing or rendering (price-and-hand-off).
 ---
 
 # Product shots
@@ -85,8 +85,8 @@ flare, named brands for the look.
 Show the prompt, take edits, then `write_scene` (`prompt`, `seconds`, `refs`
 pack shot first, `roles`, `title`, `project_id`). `quote` it: `keyframes`
 (`stills` x `each`), `clip` (a render per timed shot, each with a `token`) and
-`balance`. Say them -- "LTX 2.3, two shots: 87 + 87 = 174 credits; keyframes
-20 (2 x 10); balance 491" -- and WAIT for an explicit yes; only then `approve`
+`balance`. Say them in the quote's own numbers -- the model, the shots and
+their credits, the keyframes, the balance -- and WAIT for an explicit yes; only then `approve`
 (`what` clip or keyframes, the quote's `tokens`, its renderer choice), `job`
 until done; `scene` shows `clips`. A still is `generate_image` (the prop's
 `ref` in `references`; `image_models` says which take them): the first call is

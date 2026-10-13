@@ -77,9 +77,9 @@ reason>, <its credits> credits for 10 seconds at <its frame>. <Runner-up>
 is <its reason> at <its credits>. Which one? I can set it as your default."
 
 quote(scene_id=411, model="ltx2.3", frame="1080p")
--> clip: one 6s shot, 87 credits, one token; keyframes: 1 still at 10; balance 491
-Say: "On LTX 2.3 at 1080p that is one 6-second shot for 87 credits (its
-still would be 10 more); you have 491. Render it?" On a yes:
+-> clip: one 6s shot with its credits and one token; keyframes: 1 still; the balance
+Say: "On LTX 2.3 at 1080p that is one 6-second shot for <its credits> (its
+still would be <each> more); you have <balance>. Render it?" On a yes:
 approve(scene_id=411, what="clip", tokens=[that token], provider="fal",
 model="ltx2.3", frame="1080p", duration=6), then job until done.
 ```

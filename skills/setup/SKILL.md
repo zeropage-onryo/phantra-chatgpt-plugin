@@ -50,6 +50,7 @@ added in the studio; start nothing.
 
 ## 5. Where to go next
 
+- "Make me ads from this photo" → product-ad-set. "A cover" → thumbnails.
 - "Start a project" → start-a-project. "Write the scene" → write-scene.
 - "What would it cost, render it" → price-and-hand-off.
 - "What is free, where did my credits go" → credits-and-limits.

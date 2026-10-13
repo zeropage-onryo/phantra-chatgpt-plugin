@@ -1,6 +1,6 @@
 ---
 name: ad-variations
-description: Make A/B variants of a scene in Zero Page Studio without rewriting it from scratch -- `duplicate_scene` with a changed hook, a changed length, a different first shot, a different product photo or a different video model -- each a new scene in the same project, told apart by their ids in the chat, priced one by one, and read back later with `what_works` to see which was kept. Use when someone asks for versions, variants, an A/B test, "try it shorter", "same ad with the other photo" or "which model would be cheaper for this one". NOT for writing the first version (write-scene, ugc-ad, product-shots), NOT for pricing in general (price-and-hand-off), and NOT for setting a look (look-matching).
+description: Make A/B variants of a scene in Zero Page Studio without rewriting it from scratch -- `duplicate_scene` with a changed hook, a changed length, a different first shot, a different product photo or a different video model -- each a new scene in the same project, told apart by their ids in the chat, priced one by one, and read back later with `what_works` to see which was kept. Use when someone asks for versions, variants, an A/B test, "try it shorter", "same ad with the other photo" or "which model would be cheaper for this one". NOT for writing the first version (write-scene, ugc-ad, product-shots), NOT for a first set of ads from one product photo (product-ad-set), NOT for pricing in general (price-and-hand-off), and NOT for setting a look (look-matching).
 ---
 
 # Ad variations
@@ -62,11 +62,11 @@ A copy is titled "<source title> (copy)" and cannot be renamed from here (a
 `write_scene` rewrite replaces a scene's text, never its title), so keep a
 short table in the chat as you go and say which `scene_id` is which:
 
-| scene_id | variable | change | credits (from quote, LTX 2.3) |
+| scene_id | variable | change | credits (each from its own quote) |
 |---|---|---|---|
-| 412 | source | -- | 261 (3 shots at 87) |
-| 418 | hook | opens on "two weeks" | 261 |
-| 419 | length | 15 s to 10 s | 174 (2 shots at 87) |
+| 412 | source | -- | 3 shots: its quote's total |
+| 418 | hook | opens on "two weeks" | 3 shots: its quote's total |
+| 419 | length | 15 s to 10 s | 2 shots: its quote's total |
 
 ## Worked example
 
@@ -75,8 +75,8 @@ shorter one. Re-time it: (0-4s) the open unchanged, (4-10s) the product shot
 two seconds shorter with the closing line moved to its end, the third window
 dropped. Then `duplicate_scene` with `scene_id` 412, the re-timed `prompt`
 and `seconds` 10: it gives scene 419. `quote` 419 with `model` ltx2.3 reads
-two shots at 87, 174 credits in all (each window is fitted up to the model's
-shortest length), beside the balance. Say that and wait. On "yes", `approve`
+two shots, each with its credits, and their total (each window is fitted up
+to the model's shortest length), beside the balance. Say that and wait. On "yes", `approve`
 419, `what` "clip", the two `tokens`, `provider` fal, `model` ltx2.3, `frame`
 1080p; `job` until it is done; `scene` 419 shows the clip.
 
