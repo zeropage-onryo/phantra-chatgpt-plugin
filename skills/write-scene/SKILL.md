@@ -6,9 +6,8 @@ description: Write the scene prompt for an idea the person chose, in the shape Z
 # Write the scene
 
 A scene in Zero Page Studio is ONE paste-ready prompt a video model reads top
-to bottom. The studio renders it one timed shot at a time, against the
-photographs the person uploaded as elements. You write the prompt in the chat
-(no model credit is spent for that), then save it with `write_scene`.
+to bottom, rendered one timed shot at a time against the photographs the person
+uploaded as elements. You write it in the chat (free), then `write_scene` saves it.
 
 ## Before writing
 
@@ -80,9 +79,8 @@ link in the studio. Nothing is spent.
 **A scene with no photos is saved as a draft** (`needs_reference`): it cannot
 be priced; add a photo and `write_scene` again with its `scene_id` and `refs`.
 
-**To change a scene**, call `write_scene` with its `scene_id` and the whole
-new prompt. This replaces the text the scene had, so show the person the new
-version and get their yes first. A ref `elements` did not list is refused.
+**To change a scene**, `write_scene` with its `scene_id` and the whole new
+prompt: it replaces the text, so show the new version and get a yes first.
 
 ## Then
 
