@@ -2,12 +2,12 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "zeropage-studio",
   "version": "1.0.0",
-  "description": "Generate images and video held to your own photos, right from where you're already working.",
+  "description": "Make AI images and video from an idea or a product photo, right in the chat. Every still and clip is quoted in credits first and made only on your yes.",
   "author": {
     "name": "Zero Page Studio",
     "url": "https://zeropage.studio"
   },
-  "homepage": "https://zeropage.studio/connector",
+  "homepage": "https://zeropage.studio/mcp",
   "repository": "https://github.com/zeropage-onryo/zeropage-studio-chatgpt-plugin",
   "license": "MIT",
   "keywords": [
@@ -22,10 +22,10 @@
     "com.openai": {
       "interface": {
         "displayName": "Zero Page Studio",
-        "shortDescription": "Generate images and video held to your own photos, right from where you're already working.",
-        "longDescription": "Generate high-quality images and video held to your own reference photos, right from where you're already working. Add Zero Page Studio and sign in with your studio account. Every still and clip is made only on your yes, on Kling, Veo, Seedance, LTX, Wan, FLUX and more, then filed in a project with its brief, look, references and chat. Trim, reshape, join and share what you made. No API key required.",
+        "shortDescription": "AI images and video, in chat",
+        "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Zero Page Studio library and projects, where you can keep working. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Zero Page Studio account.",
         "developerName": "Zero Page Studio",
-        "category": "Productivity",
+        "category": "Creativity",
         "capabilities": [
           "Write scenes",
           "Generate images",
@@ -33,16 +33,14 @@
           "Edit clips",
           "Manage projects"
         ],
-        "websiteURL": "https://zeropage.studio/connector",
+        "websiteURL": "https://zeropage.studio/mcp",
         "supportURL": "https://github.com/zeropage-onryo/zeropage-studio-chatgpt-plugin/issues",
         "privacyPolicyURL": "https://zeropage.studio/privacy",
         "termsOfServiceURL": "https://zeropage.studio/terms",
         "defaultPrompt": [
-          "Open my project Spring product spots and show me its scenes.",
-          "Write a two-shot scene of the Tonal One headphones on a desk in window light and save it to the project.",
-          "What would it cost to render scene 408?",
-          "Draw a still of a pair of headphones on a slate desk in soft window light.",
-          "Make a square copy of my latest clip and give me a download link."
+          "Draw an ad still for my energy drink",
+          "Write and render a 10-second ad for my coffee brand",
+          "Storyboard a 15-second launch video for my skincare brand"
         ],
         "brandColor": "#E4002B",
         "brandColorDark": "#FF4D6A",
@@ -62,7 +60,7 @@
               "expected_behavior": "projects lists the project; project returns its brief, look, scenes (including 400 and 408 with their status), the reference photos those scenes used and the latest chat turns. Nothing is rendered."
             },
             {
-              "description": "Write a scene held to the account's own photos",
+              "description": "Write a two-shot scene and save it to a project",
               "prompt": "Write a two-shot scene of the Tonal One headphones on a desk in soft window light, about 8 seconds, and save it to Spring product spots.",
               "tools_triggered": "elements, write_scene",
               "expected_behavior": "elements lists the four product props with photo refs; write_scene saves a new scene in the project with the headphones' photo as a reference and answers its scene_id, two shots, reference_photos 2, rendered false and the scene's studio link. No credits are spent."
@@ -112,7 +110,7 @@
           "GB",
           "AU"
         ],
-        "release_notes": "Initial release: projects, elements and uploads, scenes held to your own photos, quotes and renders on your yes, free clip edits and download links, balance and history, recipes and insights."
+        "release_notes": "Initial release: images and video from an idea or a product photo, on the studio's image and video models; every still and render quoted in credits and made on your yes; projects, scenes and a library of what you made; trims, new shapes, joins and download links at no credit cost; balance and history; recipes and insights."
       }
     }
   }
