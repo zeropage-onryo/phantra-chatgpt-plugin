@@ -7,7 +7,7 @@ description: Take a one-line idea to a Phantra project holding its first scene: 
 
 From one line ("a 15-second vertical ad for my candle shop") to a project
 holding its first scene, priced and, on the person's yes, rendering. Nothing
-spends before that yes. Load phantra-use first; its habits apply throughout.
+spends before that yes. Load phantra-ai-use first; its habits apply throughout.
 
 ## Ask at most three short questions
 

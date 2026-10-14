@@ -1,4 +1,4 @@
-# Phantra for ChatGPT
+# Phantra AI for ChatGPT
 
 The plugin package submitted to OpenAI's plugin directory (`https://platform.openai.com/plugins`):
 Phantra's AI image and video generator as an MCP server, the skills that drive it, and
@@ -26,7 +26,7 @@ skill names.
 
 Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
-    zip -r ../phantra-chatgpt-1.1.0.zip plugin.json mcp.json assets skills README.md LICENSE
+    zip -r ../phantra-ai-chatgpt-1.2.0.zip plugin.json mcp.json assets skills README.md LICENSE
 
 ## The skills
 
@@ -34,7 +34,7 @@ Thirty-one, each a `SKILL.md` of at most a hundred lines that names only tools t
 
 | for | skills |
 |---|---|
-| getting started | `setup`, `phantra-use`, `start-a-project`, `ideas-and-projects` |
+| getting started | `setup`, `phantra-ai-use`, `start-a-project`, `ideas-and-projects` |
 | ads | `product-ad-set`, `ad-formats`, `ad-variations`, `product-shots`, `explainer` |
 | creator-style video | `ugc-ad`, `ugc-review`, `ugc-unboxing`, `ugc-tutorial`, `ugc-try-on` |
 | covers and scripts | `thumbnails`, `youtube-script` |
@@ -58,5 +58,5 @@ video, and a website builder.
 Questions and problems: support@phantra.ai, or an issue on this repository.
 
 The Claude plugin is a different package for a different directory, in
-[phantra-claude-plugin](https://github.com/zeropage-onryo/phantra-claude-plugin); it points at
+[phantra-ai-claude-plugin](https://github.com/zeropage-onryo/phantra-ai-claude-plugin); it points at
 the server's other address, `/mcp/claude`, which never renders.

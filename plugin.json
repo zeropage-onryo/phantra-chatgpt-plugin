@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "phantra",
-  "version": "1.1.0",
+  "name": "phantra-ai",
+  "version": "1.2.0",
   "description": "Make AI images and video from an idea or a product photo, right in the chat. Every still and clip is quoted in credits first and made only on your yes.",
   "author": {
     "name": "Phantra",
     "url": "https://phantra.ai"
   },
   "homepage": "https://phantra.ai/connector",
-  "repository": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin",
+  "repository": "https://github.com/zeropage-onryo/phantra-ai-chatgpt-plugin",
   "license": "MIT",
   "keywords": [
     "video",
@@ -21,7 +21,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Phantra",
+        "displayName": "Phantra AI",
         "shortDescription": "AI images and video, in chat",
         "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Phantra library and projects, where you can keep working. Edit a still, animate it, upscale a clip or add sound to it with effects, quoted the same way. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Phantra account.",
         "developerName": "Phantra",
@@ -35,7 +35,7 @@
           "Manage projects"
         ],
         "websiteURL": "https://phantra.ai/connector",
-        "supportURL": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin/issues",
+        "supportURL": "https://github.com/zeropage-onryo/phantra-ai-chatgpt-plugin/issues",
         "privacyPolicyURL": "https://phantra.ai/privacy",
         "termsOfServiceURL": "https://phantra.ai/terms",
         "defaultPrompt": [
