@@ -44,7 +44,7 @@ reconnect.
 
 - `projects` lists the person's projects, most recently touched first.
 - `project` opens one by id: brief, look, what it has learned, its scenes,
-  the reference photos those scenes used, its renders and the latest turns of
+  the elements those scenes used, its renders and the latest turns of
   its chat. A project made in the studio opens the same way.
 - `project_chat` pages back through a project's chat history when the person
   asks what was said before.

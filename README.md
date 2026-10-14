@@ -26,7 +26,7 @@ skill names.
 
 Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
-    zip -r ../phantra-ai-chatgpt-1.2.0.zip plugin.json mcp.json assets skills README.md LICENSE
+    zip -r ../phantra-ai-chatgpt-1.2.1.zip plugin.json mcp.json assets skills README.md LICENSE
 
 ## The skills
 

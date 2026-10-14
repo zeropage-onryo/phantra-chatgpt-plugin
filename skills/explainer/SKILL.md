@@ -6,7 +6,7 @@ description: Plan and write a short explainer video in Phantra -- what it is, ho
 # Explainer
 
 An explainer is three beats -- WHAT it is, HOW it works, WHY now -- written as
-timed shots the studio renders one at a time against the person's own photos.
+timed shots the studio renders one at a time against the person's elements.
 Words come after the render: on-screen captions live in the studio's editor,
 not in the prompt, and the voice is recorded by the person. Nothing here
 generates speech; a render spends credits only after a yes to its quote.
