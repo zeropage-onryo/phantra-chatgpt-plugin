@@ -10,7 +10,7 @@ framing, finish, how the product and people are shown, what to avoid --
 written in cinematography terms and read off what the person already made and
 kept. Nothing is invented: every rule points at a render, a photo or a sentence
 of theirs. Nothing in this skill renders or spends credits: the kit is read off
-their work and saved, never drawn. Load phantra-use first.
+their work and saved, never drawn. Load phantra-ai-use first.
 
 ## 1. Read their work (every call is free)
 
