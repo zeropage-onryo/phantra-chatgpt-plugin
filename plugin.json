@@ -8,7 +8,7 @@
     "url": "https://phantra.ai"
   },
   "homepage": "https://phantra.ai/connector",
-  "repository": "https://github.com/zeropage-onryo/phantra-ai-chatgpt-plugin",
+  "repository": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin",
   "license": "MIT",
   "keywords": [
     "video",
@@ -35,7 +35,7 @@
           "Manage projects"
         ],
         "websiteURL": "https://phantra.ai/connector",
-        "supportURL": "https://github.com/zeropage-onryo/phantra-ai-chatgpt-plugin/issues",
+        "supportURL": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin/issues",
         "privacyPolicyURL": "https://phantra.ai/privacy",
         "termsOfServiceURL": "https://phantra.ai/terms",
         "defaultPrompt": [

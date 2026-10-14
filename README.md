@@ -58,5 +58,5 @@ video, and a website builder.
 Questions and problems: support@phantra.ai, or an issue on this repository.
 
 The Claude plugin is a different package for a different directory, in
-[phantra-ai-claude-plugin](https://github.com/zeropage-onryo/phantra-ai-claude-plugin); it points at
+[phantra-claude-plugin](https://github.com/zeropage-onryo/phantra-claude-plugin); it points at
 the server's other address, `/mcp/claude`, which never renders.
