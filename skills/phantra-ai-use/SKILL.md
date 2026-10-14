@@ -28,7 +28,7 @@ Before a new project, element, scene or recipe, look for the one already there:
 
 ## 2. A picture on every scene
 
-A scene is held to the person's own photos. With none it is saved as a draft
+A scene needs at least one element picture from the person. With none it is saved as a draft
 and can be neither priced nor rendered. The refs you pass are photo refs
 exactly as `elements` lists them, the anchor first (a face before a room); a
 look-only photo (`roles` light, palette, framing, style) is never first. When

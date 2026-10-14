@@ -1,12 +1,12 @@
 ---
 name: look-matching
-description: Set the visual look of a scene in Phantra from the person's own reference photos and from an image or video frame they describe or attach, say what each photo is FOR (its role), and explain what the studio can and cannot match. Use when someone says "make it look like this", attaches or describes a reference image or frame, asks for a mood, light or texture, wants a photo used only for its light or palette, or asks which photos a scene is rendered against. NOT for writing the whole scene (write-scene), NOT for rendering or prices (price-and-hand-off), and NOT for finding or copying a real person's face.
+description: Set the visual look of a scene in Phantra from the person's elements and from an image or video frame they describe or attach, say what each photo is FOR (its role), and explain what the studio can and cannot match. Use when someone says "make it look like this", attaches or describes a reference image or frame, asks for a mood, light or texture, wants a photo used only for its light or palette, or asks which photos a scene is rendered against. NOT for writing the whole scene (write-scene), NOT for rendering or prices (price-and-hand-off), and NOT for finding or copying a real person's face.
 ---
 
 # Look matching
 
-Phantra renders a scene against **the person's own photographs,
-kept as elements** (characters, props, places), never against a name or an
+Phantra renders a scene against **the person's own elements
+(photos of characters, props, places)** (characters, props, places), never against a name or an
 image somebody else chose for them. A look is written into the scene's style
 block in cinematography terms; the photos decide identity, product and place.
 

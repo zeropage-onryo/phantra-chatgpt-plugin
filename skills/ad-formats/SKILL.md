@@ -6,7 +6,7 @@ description: Pick the shape of a short ad in Phantra and turn it into a shot pla
 # Ad formats
 
 An ad here is one scene: 4 to 30 seconds of timed shots, held to the person's
-own photos of the product, the place and any face. The shape decides the
+elements: the product, the place and any face. The shape decides the
 shots. Choosing it and writing the scene spends nothing; the render is quoted
 in credits and started only on the person's yes (price-and-hand-off).
 

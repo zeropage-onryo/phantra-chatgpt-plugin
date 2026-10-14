@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "phantra-ai",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Make AI images and video from an idea or a product photo, right in the chat. Every still and clip is quoted in credits first and made only on your yes.",
   "author": {
     "name": "Phantra",
@@ -23,7 +23,7 @@
       "interface": {
         "displayName": "Phantra AI",
         "shortDescription": "AI images and video, in chat",
-        "longDescription": "Create images and video without leaving the chat. Start with an idea, a script or a product photo and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Phantra library and projects, where you can keep working. Edit a still, animate it, upscale a clip or add sound to it with effects, quoted the same way. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Phantra account.",
+        "longDescription": "Create images and video without leaving the chat. Start with an idea or a script and get ad stills, product shots, storyboards and short clips shaped for Reels, TikTok and YouTube.\n\nVideo renders on Kling, Veo, Seedance, LTX and Wan; stills draw on FLUX, Seedream, GPT Image, Nano Banana and Ideogram. Every still and clip is quoted in credits first and made only when you say yes.\n\nResults land in your Phantra library and projects, where you can keep working. Edit a still, animate it, upscale a clip or add sound to it with effects, quoted the same way. Trim, reshape and join clips and get download links at no credit cost. Sign in with your Phantra account.",
         "developerName": "Phantra",
         "category": "Creativity",
         "capabilities": [
@@ -35,7 +35,7 @@
           "Manage projects"
         ],
         "websiteURL": "https://phantra.ai/connector",
-        "supportURL": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin/issues",
+        "supportURL": "https://phantra.ai/support",
         "privacyPolicyURL": "https://phantra.ai/privacy",
         "termsOfServiceURL": "https://phantra.ai/terms",
         "defaultPrompt": [
@@ -58,7 +58,7 @@
               "description": "List and open a project",
               "prompt": "Open my project Spring product spots and show me its scenes.",
               "tools_triggered": "projects, project",
-              "expected_behavior": "projects lists the project; project returns its brief, look, scenes (including 400 and 408 with their status), the reference photos those scenes used and the latest chat turns. Nothing is rendered."
+              "expected_behavior": "projects lists the project; project returns its brief, look, scenes (including 400 and 408 with their status), the elements those scenes used and the latest chat turns. Nothing is rendered."
             },
             {
               "description": "Write a two-shot scene and save it to a project",
