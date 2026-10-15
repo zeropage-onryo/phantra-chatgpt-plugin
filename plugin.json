@@ -64,7 +64,7 @@
               "description": "Write a two-shot scene and save it to a project",
               "prompt": "Write a two-shot scene of the Tonal One headphones on a desk in soft window light, about 8 seconds, and save it to Spring product spots.",
               "tools_triggered": "elements, write_scene",
-              "expected_behavior": "elements lists the four product props with photo refs; write_scene saves a new scene in the project with the headphones' photo as a reference and answers its scene_id, two shots, at least one reference photo, rendered false and the scene's studio link. No credits are spent."
+              "expected_behavior": "elements lists the product props with photo refs; write_scene saves a new scene in the project with the headphones' photo as a reference and answers its scene_id, two shots, at least one reference photo, rendered false and the scene's studio link. No credits are spent."
             },
             {
               "description": "Price a render",
