@@ -46,9 +46,7 @@
         "brandColor": "#E4002B",
         "brandColorDark": "#FF4D6A",
         "composerIcon": "./assets/icon.png",
-        "composerIconDark": "./assets/icon-dark.png",
-        "logo": "./assets/logo.png",
-        "logoDark": "./assets/logo-dark.png"
+        "logo": "./assets/logo.png"
       },
       "onboardingSkill": "./skills/setup/SKILL.md",
       "review": {
