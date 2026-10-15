@@ -1,6 +1,6 @@
 ---
 name: phantra-ai-use
-description: The habits every Phantra skill assumes, loaded before any tool that writes: reuse what the person already has, hold every scene to a photo, quote before anything costs credits, wait for the person's yes before anything spends, and never overwrite. Use when someone starts work on the connector, before the first `write_scene`, `create_project`, `add_element`, `save_recipe` or `set_preferences`, or whenever you are unsure what a tool spends or changes. NOT for the steps of one job: writing a scene (write-scene), pricing and rendering (price-and-hand-off), starting a project (start-a-project), choosing ideas (ideas-and-projects), a look (look-matching), or explaining credits (credits-and-limits).
+description: The habits every Phantra skill assumes, loaded before any writing tool: reuse what the person has, hold every scene to a photo, quote before anything costs, wait for the person's yes before anything spends, and never overwrite. Use when work on the connector starts, before the first `write_scene`, `create_project` or `add_element`, or when unsure what a tool spends or changes. NOT for one job's steps: a scene (write-scene), a render (price-and-render) or credits (credits-and-limits).
 ---
 
 # Use the studio well

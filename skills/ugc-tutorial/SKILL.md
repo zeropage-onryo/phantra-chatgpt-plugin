@@ -1,6 +1,6 @@
 ---
 name: ugc-tutorial
-description: Write a UGC-style tutorial scene in Phantra -- a person showing their phone camera how they use a product, one step per shot: the result first, then each step as a single action with their own instruction, then the result again -- rendered against their own face and product photos, with every step, quantity and tip coming from the person. Use when someone asks for a tutorial, a how-to, a "how I use it", a routine, a recipe-style or step-by-step clip, or a get-ready-with-me. NOT for a verdict on the product (ugc-review), NOT for opening a package (ugc-unboxing), NOT for trying clothes on (ugc-try-on), NOT for a general talk-to-camera ad (ugc-ad), NOT for a narrated explainer with no person (explainer), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes a UGC-style tutorial scene in Phantra: a person showing their phone camera how they use a product, one step per shot, the result first and last, rendered against their own face and product photos, with every step, quantity and tip coming from them. Use when someone asks for a tutorial, a how-to, a routine, a step-by-step clip or a get-ready-with-me. NOT for a verdict (ugc-review), a narrated explainer with no person (explainer) or a general talk-to-camera ad (ugc-ad).
 ---
 
 # UGC tutorial
@@ -91,4 +91,4 @@ the same renderer choice; `job` (`wait` 15) until `done`; `scene` shows the
 stills, the clips and the studio link. Tokens last an hour and work once; an
 edit means a new `quote` and a new yes. Never approve unasked or twice;
 refused `insufficient_credits`, stop and say credits are added in the
-studio. The steps in full are price-and-hand-off.
+studio. The steps in full are price-and-render.

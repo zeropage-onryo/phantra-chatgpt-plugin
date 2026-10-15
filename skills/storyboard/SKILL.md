@@ -1,6 +1,6 @@
 ---
 name: storyboard
-description: Plan a piece as a sequence of scenes in Phantra before any scene is written: a beat list agreed in the chat, then one `write_scene` per scene (timed shots inside each), all filed in one project and held to the same photos with the same roles so the scenes cut together. Use when someone wants a whole ad, short or sequence planned, asks for a storyboard or a beat sheet, has several places or moments in one idea, or wants alternates of a scene. NOT for writing one scene's prompt (write-scene), NOT for a spoken script (youtube-script), NOT for pricing or rendering (price-and-hand-off), and NOT for choosing between ideas before the piece is settled (ideas-and-projects).
+description: Plans a piece as a sequence of Phantra scenes before any is written: a beat list agreed in the chat, then one `write_scene` per scene, all in one project and held to the same photos with the same roles so the scenes cut together. Use when someone wants a whole ad, short or sequence planned, asks for a storyboard or a beat sheet, or has several places or moments in one idea. NOT for one scene's prompt (write-scene), a spoken script (youtube-script) or choosing between ideas (ideas-and-projects).
 ---
 
 # Storyboard
@@ -16,7 +16,7 @@ scene is rendered afterwards, on its own quote and the person's own yes.
 
 More shots in ONE scene when the beats share one look, one cast of photos and
 one continuous memory (the scene's own continuity rides into each shot), and
-the whole runs 30 seconds or less. One scene is one quote and one yes. Cuts
+the whole runs 30 seconds or less. Each scene is quoted on its own. Cuts
 and a change of place CAN happen between windows.
 
 SEPARATE scenes when:
@@ -64,13 +64,14 @@ Rule of thumb: a scene is one block the camera could cover in one visit.
 
 ## Then
 
-Hand each scene to price-and-hand-off, one scene at a time: `quote` with its
+Take each scene through price-and-render, one scene at a time: `quote` with its
 `scene_id` (and the renderer, when one was chosen), show the person the
 credits for the keyframes and for the clip beside their balance, and WAIT for
 a yes in the chat. Only then `approve`: `what` "keyframes" for the stills, or
 "clip" with the quote's `tokens` and the SAME renderer choice the quote was
 made with; then `job` (`wait` up to 15) until done, and `scene` for the clips.
-One yes buys one scene; a token works once (a repeat answers `already_used`
+One yes covers exactly the quotes the person was shown
+and named; anything else needs its own yes. A token works once (a repeat answers `already_used`
 and spends nothing) and a quote lasts one hour. Said in the chat, against the
 beat list above, on LTX 2.3 at 1080p:
 

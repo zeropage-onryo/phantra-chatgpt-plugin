@@ -1,6 +1,6 @@
 ---
 name: thumbnails
-description: Draw a cover image in Phantra -- a YouTube thumbnail, a Reels, TikTok or Shorts cover, a feed post cover -- as a still with `generate_image`, in the frame the platform shows it at, with a few words of text that stay readable small, on a model chosen from `image_models` for text or for the person's own face or product. Use when someone asks for a thumbnail, a cover, a title card, a poster frame or "the image people see before they click". NOT for editing a still that already exists (effects), NOT for the first seconds of the video itself (hooks-and-first-seconds), NOT for a product pack shot or a product film (product-shots), NOT for a set of ad stills in several styles (product-ad-set), NOT for which shape a video needs (platform-delivery), and NOT for prices in general (credits-and-limits).
+description: Draws a cover image in Phantra (a YouTube thumbnail, a Reels, TikTok or Shorts cover, a feed cover) as a still with `generate_image`, in the platform's frame, with a few words that stay readable small, on a model from `image_models`; quoted first and drawn on the person's yes. Use when someone asks for a thumbnail, a cover, a title card or a poster frame. NOT for editing an existing still (effects), the first seconds of the video (hooks-and-first-seconds) or a set of ad stills (product-ad-set).
 ---
 
 # Thumbnails and covers

@@ -1,6 +1,6 @@
 ---
 name: write-scene
-description: Write the scene prompt for an idea the person chose, in the shape Phantra renders from, and save it with the `write_scene` tool against their elements. Use when someone asks to write the scene, the prompt, the shots or the script, says "make the scene" after choosing an idea, or wants a saved scene changed. NOT for choosing between ideas (ideas-and-projects), NOT for pricing or rendering (price-and-hand-off), and NOT for choosing photos or a look (look-matching).
+description: Writes the scene prompt for an idea the person chose, in the shape Phantra renders from, and saves it with the `write_scene` tool against their elements. Use when someone asks to write the scene, the prompt, the shots or the script, says "make the scene" after choosing an idea, or wants a saved scene changed. NOT for choosing between ideas (ideas-and-projects), pricing or rendering (price-and-render), or choosing photos or a look (look-matching).
 ---
 
 # Write the scene
@@ -84,13 +84,13 @@ prompt: it replaces the text, so show the new version and get a yes first.
 
 ## Then
 
-Price-and-hand-off: `quote` the scene (keyframes and clip in credits, a signed
+Price-and-render: `quote` the scene (keyframes and clip in credits, a signed
 token per render, good for an hour); show the price and WAIT for the person's
-yes in the chat; only then `approve` with `what` ("keyframes" or "clip"), the
-quote's `tokens` and the same renderer choice; `job` until done, `scene` for
-the clips. One yes covers one quote, once: never on their behalf, never twice.
-Refused for credits: stop; credits are added in the studio. The scene's page in
-the studio (the link `scene` gives) is the other place they can approve it.
+yes; only then `approve` with `what` ("keyframes" or "clip"), the quote's
+`tokens` and the same renderer choice; `job` until done, `scene` for the clips.
+One yes covers exactly the quotes the person was shown and named; anything else
+needs its own yes. Refused for credits: stop; credits are added in the studio.
+The scene's page in the studio is the other place they can approve it.
 
 ## Do not
 

@@ -1,6 +1,6 @@
 ---
 name: ugc-review
-description: Write a UGC-style product review scene in Phantra -- a person telling their phone camera what they think of a product after using it: the verdict first, the one thing they noticed, the product shown in use, an honest drawback when they have one, and the bottom line -- rendered against their own face and product photos, with every word of the verdict coming from the person. Use when someone asks for a review video, a testimonial-style spot, an "honest review", a "my thoughts after two weeks" clip or a verdict to camera. NOT for a general talk-to-camera ad (ugc-ad), NOT for opening a package (ugc-unboxing), NOT for a step-by-step how-to (ugc-tutorial), NOT for trying clothes on (ugc-try-on), NOT for A/B versions (ad-variations), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes a UGC-style review scene in Phantra: a person telling their phone camera what they think after using a product (the verdict, the one thing they noticed, the product in use, an honest drawback), rendered against their own face and product photos, every word of the verdict theirs. Use when someone asks for a review video, a testimonial-style spot, an "honest review" or a verdict to camera. NOT for a general talk-to-camera ad (ugc-ad), an unboxing (ugc-unboxing) or a how-to (ugc-tutorial).
 ---
 
 # UGC review
@@ -87,5 +87,5 @@ quote's `tokens` and the same renderer choice; `job` (`wait` 15) until
 `done`; `scene` shows the stills, the clips and the studio link. Tokens last
 an hour and work once; an edit means a new `quote` and a new yes. Never
 approve unasked or twice; refused `insufficient_credits`, stop and say
-credits are added in the studio. The steps in full are price-and-hand-off;
+credits are added in the studio. The steps in full are price-and-render;
 shorter or re-ordered versions are ad-variations.

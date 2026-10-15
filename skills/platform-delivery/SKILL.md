@@ -1,6 +1,6 @@
 ---
 name: platform-delivery
-description: Deliver a Phantra video in the shape and length each platform wants (Reels, TikTok and Shorts in 9:16; YouTube in 16:9; a feed post in 1:1 or 4:5) by setting a default length with `set_preferences`, writing each scene to its platform's length, reformatting a finished clip per platform with pad or crop, and handing over a download link. Use when someone names a platform, asks what size or how long a video should be, wants versions for several platforms, or asks whether the studio can post it (it cannot). NOT for the edit steps in detail (edit-and-deliver), NOT for a cover image (thumbnails), NOT for writing the shots (write-scene, hooks-and-first-seconds), and NOT for pricing or rendering (price-and-hand-off).
+description: Delivers a Phantra video in the shape and length each platform wants (9:16 for Reels, TikTok and Shorts; 16:9 for YouTube; 1:1 or 4:5 for a feed): sets a default length, writes each scene to its platform's length, reformats a finished clip per platform and hands over a download link. Use when someone names a platform, asks what size or length a video needs, or wants versions per platform (the studio does not post). NOT for the edit steps (edit-and-deliver) or a cover image (thumbnails).
 ---
 
 # Platform delivery
@@ -9,7 +9,7 @@ The studio makes the file. Posting is the person's, on the platform itself:
 nothing in this connector posts, schedules or publishes anywhere, and say so
 plainly when asked. Reformatting runs on the studio's own server and spends
 nothing; a render of a scene is priced by `quote` and runs only after the
-person's yes in this chat, through `approve` (price-and-hand-off).
+person's yes in this chat, through `approve` (price-and-render).
 
 ## Shapes and lengths the studio advises, per platform
 
@@ -43,7 +43,7 @@ the studio's advice, and the person's own `what_works` numbers outrank it.
 4. **Render.** `quote` the scene; show the person the credits and wait for
    their yes in this chat. Then `approve` with what=clip, the quote's
    `tokens` and the same renderer choice (provider, model, frame, duration;
-   price-and-hand-off); `job` with `wait=15` until done, then `scene` for the
+   price-and-render); `job` with `wait=15` until done, then `scene` for the
    clips. Never approve on the person's behalf, never twice; a refusal
    `insufficient_credits` (with `needs` and `available`) means stop and say
    credits are added in the studio.

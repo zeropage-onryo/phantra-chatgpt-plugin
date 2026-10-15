@@ -1,6 +1,6 @@
 ---
 name: brand-kit-from-my-work
-description: Build a brand kit from the person's own Phantra work: read what they kept and posted, their library, elements and recipes, draw out the palette, light, framing and product rules in cinematography words, confirm each rule with them, and save the kit as a recipe and as a project look. Use when someone says "make me a brand kit", "what is my style", "write down my look", or wants every new scene to match what already worked for them. NOT for matching a look from a reference image they attach (look-matching), NOT for starting a project from an idea (start-a-project), NOT for writing the scene (write-scene), and NOT for taglines or captions (hooks-and-first-seconds).
+description: Builds a brand kit from the person's own Phantra work: reads what they kept and posted, their library, elements and recipes, draws out palette, light, framing and product rules, confirms each, and saves the kit as a recipe and a project look. Use when someone says "make me a brand kit" or "what is my style", or wants new scenes to match what worked. NOT for a look from an attached reference image (look-matching), starting a project (start-a-project) or captions (hooks-and-first-seconds).
 ---
 
 # Brand kit from my work

@@ -1,6 +1,6 @@
 ---
 name: ugc-try-on
-description: Write a UGC-style try-on scene in Phantra -- a person trying on clothing, shoes or an accessory for their phone camera: the piece held up, a cut to wearing it, a turn in a mirror, a close detail of fabric and fit, and their verdict -- rendered against their own face and photos of the actual garment, with nothing about their body changed and every word about fit coming from them. Use when someone asks for a try-on, a haul, an outfit check, a fit check, a "how it looks on" clip or a wear test. NOT for a general talk-to-camera ad (ugc-ad), NOT for a review of a product that is not worn (ugc-review), NOT for opening a package (ugc-unboxing), NOT for a how-to (ugc-tutorial), NOT for a garment filmed with no person (product-shots), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes a UGC-style try-on scene in Phantra: a person trying on clothing, shoes or an accessory for their phone camera (held up, worn, a mirror turn, a close detail, a verdict), rendered against their own face and photos of the actual garment, with nothing about their body changed. Use when someone asks for a try-on, a haul, an outfit or fit check, or a wear test. NOT for a general talk-to-camera ad (ugc-ad), a review of something not worn (ugc-review) or a garment with no person (product-shots).
 ---
 
 # UGC try-on
@@ -97,4 +97,4 @@ chat. Only then `approve` with `what` (`keyframes` or `clip`), the quote's
 `tokens` and the same renderer choice; `job` (`wait` 15) until `done`;
 `scene` shows the result. Tokens last an hour and work once. Never approve
 unasked or twice; refused `insufficient_credits`, stop: credits are added in
-the studio (price-and-hand-off has the steps in full).
+the studio (price-and-render has the steps in full).

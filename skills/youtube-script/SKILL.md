@@ -1,6 +1,6 @@
 ---
 name: youtube-script
-description: Write a YouTube video script in the chat, shaped to its genre -- an explainer, a list, a tutorial, a review, a story or a commentary -- with a hook, sections and one call to action, set out as what is SAID beside what is SEEN, and then, only if the person wants footage, hand the SEE column to Phantra as scenes. Use when someone asks for a YouTube script, a video script, an outline, talking points, a voice-over script or a long-form plan. Writing the script calls no tool and spends nothing. NOT for one scene's prompt (write-scene), NOT for a sequence of scenes with no spoken script (storyboard), NOT for a short product explainer (explainer), NOT for the cover image (thumbnails), NOT for the sound of a scene (sound-plan), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes a YouTube video script in the chat, shaped to its genre (explainer, list, tutorial, review, story), with a hook, sections and one call to action, set out as what is SAID beside what is SEEN; only if the person wants footage does the SEE column go to Phantra as scenes. Writing it spends nothing. Use when someone asks for a YouTube or video script, or an outline. NOT for one scene's prompt (write-scene), scenes with no spoken script (storyboard) or the cover (thumbnails).
 ---
 
 # YouTube script
@@ -75,7 +75,7 @@ voice they record.
   `create_project`) or write a single one with write-scene.
 - Writing and saving a scene is free. Rendering is priced per scene by
   `quote` and runs only on their yes, through `approve`
-  (price-and-hand-off). Say how many scenes the plan is before quoting any.
+  (price-and-render). Say how many scenes the plan is before quoting any.
 - Finished clips are in `library`; `assemble_clips` joins them (no credits)
   and `share_link` hands over the file for their own editor, where the
   voice goes on. Scenes render in a vertical frame; `reformat` with

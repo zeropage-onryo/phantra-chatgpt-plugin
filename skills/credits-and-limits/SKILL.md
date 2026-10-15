@@ -1,6 +1,6 @@
 ---
 name: credits-and-limits
-description: Explain what is free and what costs credits in Phantra, read the balance and where credits went, walk the quote -> yes -> approve flow every spend takes, set up draft-first rendering, and explain a refusal or the connector's rate limit (a 429). Use when someone asks how much something costs, what credits are, what their balance is, where their credits went, how to render cheaper, what a quote token is, why a call was refused, why they got "rate limited", or whether an action will charge them. NOT for pricing a particular scene and approving its render (price-and-hand-off) and NOT for choosing ideas (ideas-and-projects).
+description: Explains what is free and what costs credits in Phantra, reads the balance and where credits went, walks the quote, yes, spend flow, sets up draft-first rendering, and explains a refusal or a rate limit (429). Use when someone asks what something costs, what credits or a quote token are, what their balance is, how to render cheaper, or why a call was refused. NOT for pricing and rendering one scene (price-and-render) or choosing ideas (ideas-and-projects).
 ---
 
 # Credits and limits
@@ -43,12 +43,12 @@ landed. Credits are added in the studio, never here. Prices are in credits in ev
   what it was for and the balance it left. Pass the reply's `next` as `before` to page
   back. This answers "what did that cost me".
 - `quote` also returns `balance`, `credits_needed` and `affordable` for one scene; report
-  those three plainly beside the price (price-and-hand-off).
+  those three plainly beside the price (price-and-render).
 
 ## Draft first: a cheaper frame to check a take
 
-Wan 3.0 and Seedance 2.5 have a cheaper 480p **draft frame**; `video_models` shows it
-where a model has one. Drafting pays when not every take is kept:
+Some models have a cheaper **draft frame**; `video_models` shows it where a model
+has one. Drafting pays when not every take is kept:
 
 1. `recommend_model` with `draft` true ranks models with a draft frame first (the rest
    still appear), each with its reason and its credits at the model's default frame -- not

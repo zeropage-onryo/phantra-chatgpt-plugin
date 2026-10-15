@@ -1,9 +1,9 @@
 ---
-name: price-and-hand-off
-description: Price a Phantra scene, start its render on the person's yes, then report where the scene stands. Use when someone says render it, draw the stills, make the clip, how much will it cost, or asks whether a scene is done. Every render here is quoted in credits first, approved by the person in the conversation, started with `approve` (a scene) or `generate_image` (one still), and read back with `job` and `scene`. NOT for writing the scene (write-scene), NOT for an effect on something already made (effects), NOT for choosing ideas (ideas-and-projects), and NOT for explaining plans or balances in general (credits-and-limits).
+name: price-and-render
+description: Prices a Phantra scene or still in credits, starts it on the person's yes, and reports where it stands. Every spend is quoted first, approved by the person in the chat, started with `approve` (a scene) or `generate_image` (one still), and read back with `job`. Use when someone says render it, make the clip or how much will it cost, or asks whether a scene is done. NOT for writing the scene (write-scene), an effect on something already made (effects) or credits in general (credits-and-limits).
 ---
 
-# Price and hand off
+# Price and render
 
 Rendering a scene costs credits, and on this connector it is approved **in the
 chat**: you show the price the studio quoted, wait for the person's yes, and
@@ -64,7 +64,7 @@ new quote and a new yes.
 
 - The yes comes after the price, in this conversation, in so many words.
   "Render it" said before any price is shown asks for the quote, not for the
-  spend. Never approve on the person's behalf; one yes covers one approval.
+  spend. Never approve on the person's behalf. One yes covers exactly the quotes the person was shown and named; anything else needs its own yes.
 - Never spend twice. Unsure whether an approval went through? Read `job` or
   `scene`; do not call `approve` or `generate_image` again.
 - If `affordable` is false, or a call is refused `insufficient_credits` (with

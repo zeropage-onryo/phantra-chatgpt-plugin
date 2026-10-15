@@ -1,6 +1,6 @@
 ---
 name: product-shots
-description: Write a product-led scene in Phantra -- the product itself as the subject, in macro and turntable shots with its surfaces and reflections written into the style block -- held to the person's own product photos, and say what a 4:5 or 1:1 reformat does to the clip afterwards. Use when someone asks for product shots, a product video, a pack shot in motion, a hero clip of a product or "make my product look good". A pack-shot still can be drawn here too (`generate_image`, quoted first); the scene is the clip. NOT for a person talking to camera (ugc-ad), NOT for a set of ad stills in several styles (product-ad-set), NOT for A/B versions of a scene (ad-variations), NOT for the general scene shape (write-scene), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes a product-led Phantra scene: the product as the subject, in macro and turntable shots, held to the person's own product photos, and says what a 4:5 or 1:1 reformat does afterwards. A pack-shot still can be drawn too (`generate_image`, quoted first). Use when someone asks for product shots, a product video, a pack shot in motion or a hero clip. NOT for a person to camera (ugc-ad), a set of ad stills (product-ad-set) or A/B versions (ad-variations).
 ---
 
 # Product shots

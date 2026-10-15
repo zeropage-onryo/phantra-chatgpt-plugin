@@ -1,6 +1,6 @@
 ---
 name: product-ad-set
-description: Turn one product photo into a set of ads in Phantra -- three or four ad stills in different styles and, when wanted, two or three short video ads with different opening hooks -- by getting the photo in as an element, agreeing the set, quoting every still and every scene separately, and making only what the person says yes to. Use when someone asks for ads, ad stills, ad creatives, "a few options", a campaign or a launch set for a product, or gives a product photo or product page and says "make me ads". NOT for one product film in detail (product-shots), NOT for a person talking to camera (ugc-ad), NOT for versions of an ad that already exists (ad-variations), NOT for a video cover (thumbnails), NOT for the format of one ad (ad-formats), and NOT for prices in general (credits-and-limits).
+description: Turns one product photo into a set of Phantra ads: three or four ad stills in different styles and, when wanted, two or three short video ads with different hooks. Agrees the set, quotes every still and scene separately and makes only what the person says yes to. Use when someone asks for ads, a campaign or a launch set, or gives a product photo and says "make me ads". NOT for one product film (product-shots), a person to camera (ugc-ad) or versions of an existing ad (ad-variations).
 ---
 
 # A set of ads from one product photo
@@ -87,9 +87,9 @@ download link for each. Later, `what_works` reads which they kept.
 
 ## The spending rules
 
-- A yes covers the quotes the person named, once each. Never draw or
-  approve on their behalf, never a second time on one yes, and never one
-  they did not name.
+- One yes covers exactly the quotes the person was shown
+  and named; anything else needs its own yes. Never draw or approve on their behalf,
+  and never a second time on one yes.
 - A token is good for one hour and for exactly that request; a changed
   prompt, model or frame needs a new quote and a new yes.
 - `refused: insufficient_credits` (with `needs` and `available`): stop, say
