@@ -1,6 +1,6 @@
 ---
 name: ad-variations
-description: Make A/B variants of a scene in Phantra without rewriting it from scratch -- `duplicate_scene` with a changed hook, a changed length, a different first shot, a different product photo or a different video model -- each a new scene in the same project, told apart by their ids in the chat, priced one by one, and read back later with `what_works` to see which was kept. Use when someone asks for versions, variants, an A/B test, "try it shorter", "same ad with the other photo" or "which model would be cheaper for this one". NOT for writing the first version (write-scene, ugc-ad, product-shots), NOT for a first set of ads from one product photo (product-ad-set), NOT for pricing in general (price-and-hand-off), and NOT for setting a look (look-matching).
+description: Makes A/B variants of a saved Phantra scene with `duplicate_scene`, changing one thing (the hook, the length, the first shot, the product photo or the video model), each a new scene priced on its own and read back later with `what_works`. Use when someone asks for versions, variants, an A/B test, "try it shorter" or "same ad with the other photo". NOT for the first version (write-scene), a first set of ads from one product photo (product-ad-set) or setting a look (look-matching).
 ---
 
 # Ad variations
@@ -21,10 +21,10 @@ per variant, so what gets kept says something.
    photo or model. Draft the change, show it, get a yes.
 3. `duplicate_scene` with the `scene_id` and ONLY the fields that change;
    the rest is copied. The reply gives the new `scene_id` and `copied_from`.
-4. Note which is which (below), then `quote` each variant and say each price
-   from its own quote: `keyframes` (stills still to draw, `each` credits a
-   still) and `clip` (one render per timed shot, its `credits` in all), beside
-   the `balance`. Then WAIT. A yes to one variant is a yes to that variant only.
+4. Note which is which (below), then `quote` each variant and say its price:
+   `keyframes` (stills, `each` credits a still) and `clip` (its `credits` in
+   all), beside the `balance`. Then WAIT. One yes covers exactly the quotes the
+   person was shown and named; anything else needs its own yes.
 5. On the yes, `approve` with that `scene_id`, `what` "clip", the `tokens`
    from its quote and the same `provider`, `model` and `frame` the quote was
    priced with (and its `duration` when the scene is one shot). Tokens are

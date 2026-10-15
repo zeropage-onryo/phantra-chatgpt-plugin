@@ -1,6 +1,6 @@
 ---
 name: sound-plan
-description: Plan the sound of a Phantra scene -- write the "No background music. Only diegetic sound:" line and each shot's own sound, say which video models render sound with the picture, and explain where music and the voice go (a music bed in the studio's editor or through `assemble_clips`; a voice the person records). Use when someone asks what a scene will sound like, wants music, a voice-over, narration, a sound effect or silence, or asks why a clip is silent. NOT for writing the whole scene (write-scene), NOT for a full explainer (explainer), NOT for adding sound to a finished clip (effects), and NOT for pricing or rendering (price-and-hand-off).
+description: Plans the sound of a Phantra scene: writes the "No background music. Only diegetic sound:" line and each shot's own sound, says which models render sound with the picture, and where music and voice go (a music bed through `assemble_clips`; a voice the person records). Use when someone asks what a scene will sound like, wants music or a voice-over, or asks why a clip is silent. NOT for the whole scene (write-scene), a full explainer (explainer) or sound added to a finished clip (effects).
 ---
 
 # Sound plan

@@ -2,7 +2,7 @@
 
 The plugin package submitted to OpenAI's plugin directory (`https://platform.openai.com/plugins`):
 Phantra's AI image and video generator as an MCP server, the skills that drive it, and
-the icons. What it does and how to connect it: <https://phantra.ai/connector>.
+the icons. What it does and how to connect it: <https://phantra.ai/mcp>.
 
 - `plugin.json`: identity, the listing (`extensions.com.openai.interface`), the onboarding skill,
   the review cases (five positive, three negative), `commerce: false`, publication.
@@ -26,7 +26,7 @@ skill names.
 
 Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
-    zip -r ../phantra-ai-chatgpt-1.2.1.zip plugin.json mcp.json assets skills README.md LICENSE
+    zip -r ../phantra-ai-chatgpt-1.3.0.zip plugin.json mcp.json assets skills README.md LICENSE
 
 ## The skills
 
@@ -40,7 +40,7 @@ Thirty-one, each a `SKILL.md` of at most a hundred lines that names only tools t
 | covers and scripts | `thumbnails`, `youtube-script` |
 | changing what is made | `effects` |
 | writing a scene | `write-scene`, `storyboard`, `hooks-and-first-seconds`, `camera-moves`, `look-matching`, `sound-plan`, `model-prompting`, `series-and-continuity` |
-| pricing, finishing, delivering | `price-and-hand-off`, `credits-and-limits`, `edit-and-deliver`, `platform-delivery` |
+| pricing, finishing, delivering | `price-and-render`, `credits-and-limits`, `edit-and-deliver`, `platform-delivery` |
 | a person's own style and clients | `brand-kit-from-my-work`, `client-treatment` |
 
 Not here, because the server has no tool for them yet: narration or a voice, subtitles on the

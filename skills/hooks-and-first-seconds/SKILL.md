@@ -1,6 +1,6 @@
 ---
 name: hooks-and-first-seconds
-description: Write the first shot of a Phantra scene so it holds attention (an arresting image, a turn or a reveal inside the first two or three seconds, serious reactions, an abrupt end) and put it into shot (0-Ns) of `write_scene`, with `what_works` for what the person kept and posted and `score_caption` for the caption that rides beside it, both read as evidence rather than verdicts. Use when someone asks for a hook, says the opening is slow, asks why viewers leave at the start, wants the first seconds rewritten, or asks for a caption. NOT for the whole scene's shape (write-scene), NOT for the cover image (thumbnails), NOT for the look (look-matching), NOT for the platform's shape and length (platform-delivery), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes the first shot of a Phantra scene so it holds attention (an arresting image, a turn or a reveal in the first seconds) and puts it into the scene's first timed shot, reading `what_works` and `score_caption` as evidence rather than verdicts. Use when someone asks for a hook, says the opening is slow, wants the first seconds rewritten, or asks for a caption. NOT for the whole scene's shape (write-scene), the cover image (thumbnails) or the platform's shape and length (platform-delivery).
 ---
 
 # Hooks and the first seconds
@@ -52,7 +52,7 @@ no `refs` the scene becomes a draft with no photos). It replaces the text the
 scene had and detaches any clips already on it, so show the new version and
 get a yes first; to keep the original and its clips, `duplicate_scene` with
 the new `prompt` instead. Then `quote`, the person's yes, and `approve` with
-the quote's tokens (price-and-hand-off).
+the quote's tokens (price-and-render).
 
 ## Evidence first: `what_works`
 

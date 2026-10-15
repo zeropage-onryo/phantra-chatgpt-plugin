@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "phantra-ai",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Make AI images and video from an idea or a product photo, right in the chat. Every still and clip is quoted in credits first and made only on your yes.",
   "author": {
     "name": "Phantra",
     "url": "https://phantra.ai"
   },
-  "homepage": "https://phantra.ai/connector",
+  "homepage": "https://phantra.ai/mcp",
   "repository": "https://github.com/zeropage-onryo/phantra-chatgpt-plugin",
   "license": "MIT",
   "keywords": [
@@ -34,7 +34,7 @@
           "Edit clips",
           "Manage projects"
         ],
-        "websiteURL": "https://phantra.ai/connector",
+        "websiteURL": "https://phantra.ai/mcp",
         "supportURL": "https://phantra.ai/support",
         "privacyPolicyURL": "https://phantra.ai/privacy",
         "termsOfServiceURL": "https://phantra.ai/terms",
@@ -64,7 +64,7 @@
               "description": "Write a two-shot scene and save it to a project",
               "prompt": "Write a two-shot scene of the Tonal One headphones on a desk in soft window light, about 8 seconds, and save it to Spring product spots.",
               "tools_triggered": "elements, write_scene",
-              "expected_behavior": "elements lists the four product props with photo refs; write_scene saves a new scene in the project with the headphones' photo as a reference and answers its scene_id, two shots, reference_photos 2, rendered false and the scene's studio link. No credits are spent."
+              "expected_behavior": "elements lists the four product props with photo refs; write_scene saves a new scene in the project with the headphones' photo as a reference and answers its scene_id, two shots, at least one reference photo, rendered false and the scene's studio link. No credits are spent."
             },
             {
               "description": "Price a render",
@@ -73,10 +73,10 @@
               "expected_behavior": "quote answers the keyframes and the clip priced in credits beside the account's balance, with signed tokens valid for one hour, and the note to show the person the price and wait for a yes. Nothing is spent by the quote."
             },
             {
-              "description": "Draw a still after a quote and a yes",
-              "prompt": "Draw a still of a pair of headphones on a slate desk in soft window light. Yes, go ahead at that price.",
+              "description": "Price a still, then draw it only after a yes",
+              "prompt": "Draw a still of a pair of headphones on a slate desk in soft window light.",
               "tools_triggered": "generate_image, generate_image, job",
-              "expected_behavior": "The first generate_image call (no quote_token) answers a quote with the model, the credits and a quote_token and draws nothing; the second call with that token starts a job; job with wait=15 ends done with the image's address and its gen:<id>. The account's balance drops by the quoted credits once."
+              "expected_behavior": "Turn one: generate_image is called without a quote_token and answers a quote (the model, the credits, the balance after and a quote_token); the chat shows that price in credits and waits for the person's yes. Nothing is drawn and the balance is unchanged. Turn two, only after the person replies \"Yes, go ahead\": generate_image is called again with that quote_token and starts a job; job with wait=15 ends done with the image's address and its gen:<id>. The balance drops by the quoted credits once."
             },
             {
               "description": "Reshape a clip and share it",
@@ -111,7 +111,7 @@
           "GB",
           "AU"
         ],
-        "release_notes": "Initial release: images and video from an idea or a product photo, on the studio's image and video models; every still and render quoted in credits and made on your yes; effects on stills and clips; projects, scenes and a library of what you made; trims, new shapes, joins and download links at no credit cost; balance and history; recipes and insights."
+        "release_notes": "Images and video from an idea or a product photo, on the studio's image and video models; every still, render and effect quoted in credits and made only on your yes; projects, scenes and a library of what you made; trims, new shapes, joins and download links at no credit cost; balance and history; recipes and insights. 1.3.0: shorter skill descriptions, one rule for what a yes covers, and the pricing skill renamed price-and-render."
       }
     }
   }

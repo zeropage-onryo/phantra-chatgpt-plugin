@@ -1,6 +1,6 @@
 ---
 name: camera-moves
-description: A vocabulary of camera moves and framings for Phantra scene prompts -- push-in, pull-back, orbit, handheld, locked-off, rack focus, whip pan, crane, top-down and POV; close, medium and wide; eye, chest and low height -- with when each works in a 2-10 second shot, how to write it into a timed beat, and the rule of one move per shot. Use when someone asks how to shoot a beat, names a move, wants a shot calmer or more alive, or asks what framing to use. NOT for a camera move applied to a still that already exists (effects), NOT for writing the whole scene (write-scene), NOT for the light, palette and texture of a look (look-matching), and NOT for the order of scenes (storyboard).
+description: A vocabulary of camera moves and framings for Phantra scene prompts (push-in, pull-back, orbit, handheld, locked-off, rack focus, whip pan, crane, top-down, POV; close, medium, wide), with when each works in a 2-10 second shot and the rule of one move per shot. Use when someone asks how to shoot a beat, names a move, or wants a shot calmer or more alive. NOT for a camera move on an existing still (effects), the whole scene (write-scene) or the light and palette of a look (look-matching).
 ---
 
 # Camera moves
@@ -67,13 +67,13 @@ walking shot with a face in it", "a final product spot, realistic, with
 sound"); `video_models` lists their lengths and frames. Say the reason; the
 person picks the model, and that pick goes on `quote` as `model`, so the price
 they see is for that model, then on `approve` with the quote's tokens once
-they have seen the price and said yes in this chat (price-and-hand-off).
+they have seen the price and said yes in this chat (price-and-render).
 
 ## Then
 
 Fold the beats into the full scene (opening line, style, beats, sound, avoid)
 and save it with `write_scene` (write-scene). Pricing and the render --
-`quote`, the person's yes in this chat, `approve` -- are price-and-hand-off.
+`quote`, the person's yes in this chat, `approve` -- are price-and-render.
 
 ## Do not
 

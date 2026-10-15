@@ -1,6 +1,6 @@
 ---
 name: ugc-unboxing
-description: Write a UGC-style unboxing scene in Phantra -- a person opening a package on their phone camera: the sealed box in their hands, the open, the product lifted out, a first touch of its details, and a first impression in their own words -- rendered against their own face, product and packaging photos. Use when someone asks for an unboxing, a "what arrived", a first-look or first-impressions clip, or a package-opening video. NOT for a verdict after using the product (ugc-review), NOT for a general talk-to-camera ad (ugc-ad), NOT for a how-to (ugc-tutorial), NOT for trying clothes on (ugc-try-on), NOT for a product-only film with no person (product-shots), and NOT for pricing or rendering (price-and-hand-off).
+description: Writes a UGC-style unboxing scene in Phantra: a person opening a package on their phone camera (the sealed box, the open, the product lifted out, a first touch of its details, a first impression in their own words), rendered against their own face, product and packaging photos. Use when someone asks for an unboxing, a "what arrived", a first-look or a package-opening video. NOT for a verdict after use (ugc-review), a general talk-to-camera ad (ugc-ad) or a product-only film (product-shots).
 ---
 
 # UGC unboxing
@@ -93,4 +93,4 @@ quote's `tokens` and the same renderer choice; `job` (`wait` 15) until
 `done`; `scene` shows the stills, the clips and the studio link. Tokens last
 an hour and work once; an edit means a new `quote` and a new yes. Never
 approve unasked or twice; refused `insufficient_credits`, stop and say
-credits are added in the studio. The steps in full are price-and-hand-off.
+credits are added in the studio. The steps in full are price-and-render.

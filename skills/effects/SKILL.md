@@ -1,6 +1,6 @@
 ---
 name: effects
-description: Change something already in the person's Phantra library with `apply_effect` -- edit an image by instruction, remove a background, turn a still into an animated template or a named camera move, upscale or smooth a clip, add sound to it, extend it to a new shape, cut its subject out -- choosing the effect and its options from `effects`, quoting it in credits first and running it only on the person's yes. Use when someone asks to edit, retouch, restyle or cut out an image, animate a photo, add a camera move to a still, upscale, sharpen, smooth or add sound to a clip, or asks what effects there are. NOT for a new still from a prompt (thumbnails, product-ad-set), NOT for the free edits -- trim, join, pad or crop to a new shape (edit-and-deliver), NOT for camera moves written into a scene's shots (camera-moves), NOT for a scene's sound line (sound-plan), and NOT for prices in general (credits-and-limits).
+description: Changes something already in the person's Phantra library with `apply_effect`: an image edit, a background removal, a camera move or animated template on a still, an upscale or added sound on a clip, a cut-out. Picks the effect from `effects`, quotes it in credits and runs it only on the person's yes. Use when someone asks to edit, animate, upscale or add sound to something already made. NOT for a new still (thumbnails), the free edits (edit-and-deliver) or a scene's sound line (sound-plan).
 ---
 
 # Effects

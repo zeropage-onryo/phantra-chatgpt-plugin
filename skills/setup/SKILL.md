@@ -1,6 +1,6 @@
 ---
 name: setup
-description: The first minutes with Phantra in ChatGPT: what the person can make here, the one sign-in, a look at what the workspace holds, and the one rule about spending. Use right after the plugin is installed, when the person asks how to start or what this can do, or when a call answers that the sign-in has no workspace yet. NOT for the work itself: writing a scene (write-scene), pricing and rendering (price-and-hand-off), choosing ideas (ideas-and-projects), or explaining credits (credits-and-limits).
+description: The first minutes with Phantra in ChatGPT: what the person can make here, the one sign-in, a look at what the workspace holds, and the one rule about spending. Use right after the plugin is installed, when the person asks how to start or what this can do, or when a call answers that the sign-in has no workspace yet. NOT for the work itself: writing a scene (write-scene), pricing and rendering (price-and-render) or explaining credits (credits-and-limits).
 ---
 
 # Setting up Phantra
@@ -54,5 +54,5 @@ added in the studio; start nothing.
 
 - "Make me ads from this photo" → product-ad-set. "A cover" → thumbnails.
 - "Start a project" → start-a-project. "Write the scene" → write-scene.
-- "What would it cost, render it" → price-and-hand-off.
+- "What would it cost, render it" → price-and-render.
 - "What is free, where did my credits go" → credits-and-limits.

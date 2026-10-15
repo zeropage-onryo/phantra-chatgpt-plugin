@@ -1,6 +1,6 @@
 ---
 name: ideas-and-projects
-description: Turn a brief into a few story ideas the person chooses between in the chat, and keep the work in a Phantra project. Use when someone describes a video, ad, short or scene they want made, asks what they are working on, wants to open or start a project, or wants to decide between ideas. NOT for writing the scene (write-scene), NOT for prices or rendering (price-and-hand-off, credits-and-limits), and NOT for choosing a visual look (look-matching).
+description: Turns a brief into a few story ideas the person chooses between in the chat, and keeps the work in a Phantra project. Use when someone describes a video, ad, short or scene they want made, asks what they are working on, wants to open or start a project, or wants to decide between ideas. NOT for writing the scene (write-scene), prices or rendering (price-and-render, credits-and-limits), or choosing a visual look (look-matching).
 ---
 
 # Ideas and projects
@@ -54,7 +54,7 @@ reconnect.
   to keep things together. A scene does not need a project.
 - A scene is filed in a project by passing the project's id to `write_scene`.
   A still drawn with `generate_image` is filed the same way, by `project_id`
-  -- quoted first, and drawn only on the person's yes (price-and-hand-off).
+  -- quoted first, and drawn only on the person's yes (price-and-render).
 
 ## What to say and not say
 
@@ -65,5 +65,5 @@ reconnect.
   conversation.
 - Never say a scene is rendering, drawn or scheduled unless `approve` started
   that job in this conversation, after `quote` showed its price in credits
-  and the person said yes (price-and-hand-off). `scene` says where a scene
+  and the person said yes (price-and-render). `scene` says where a scene
   really stands.

@@ -1,6 +1,6 @@
 ---
 name: edit-and-deliver
-description: Finish a video from the chat with Phantra's free edits: find the clips in the library, trim one, join several (a cut or a crossfade, music as an audio file uploaded in the studio's editor), reformat to a platform's shape, and hand over a download link. Use when someone says trim it, cut these together, put the music under it, make a square or vertical version, send me the file, or asks for a download link. Every result is a new item, sources are untouched, and nothing here spends credits. NOT for changing the picture itself -- an upscale, added sound, a generated new shape, a cut-out (effects), NOT for rendering or pricing a scene (price-and-hand-off), NOT for which shape and length each platform wants (platform-delivery), and NOT for writing the scene (write-scene).
+description: Finishes a video with Phantra's free edits: finds clips in the library, trims one, joins several (a cut or a crossfade), reformats to a platform's shape and hands over a download link. Every result is a new item and nothing spends credits. Use when someone says trim it, cut these together, make a vertical version or send me the file. NOT for changing the picture itself (effects), the shape each platform wants (platform-delivery) or rendering (price-and-render).
 ---
 
 # Edit and deliver
@@ -90,4 +90,4 @@ square version and send me the file."
 - A refusal (a range outside the clip, shapes too far apart to crop, a music
   id that is not audio, more than twenty clips) comes back in words: repeat
   it and change the call. Never retry the identical call.
-- Never promise a clip that has not been rendered; that is price-and-hand-off.
+- Never promise a clip that has not been rendered; that is price-and-render.

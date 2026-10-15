@@ -1,6 +1,6 @@
 ---
 name: start-a-project
-description: Take a one-line idea to a Phantra project holding its first scene: find the workspace, check the project is not already there, create it with a title, brief and look, get the person's pictures in as elements, write and file the first scene, then quote it and -- on the person's yes -- approve the render and follow it to the scene. Use when someone says "start a project", "new project for ...", "set this up", or brings a fresh idea with nothing in the studio yet. NOT for reopening or choosing between ideas in a project that exists (ideas-and-projects), NOT for the shape of the scene prompt itself (write-scene), NOT for a look read off their own renders (brand-kit-from-my-work), and NOT for the details of pricing (price-and-hand-off).
+description: Takes a one-line idea to a Phantra project holding its first scene: creates it with a title, brief and look, gets the person's pictures in as elements, writes and files the first scene, then quotes it and, on the person's yes, approves the render and follows it. Use when someone says "start a project" or brings a fresh idea with nothing in the studio yet. NOT for reopening a project (ideas-and-projects), the scene prompt itself (write-scene) or pricing details (price-and-render).
 ---
 
 # Start a project

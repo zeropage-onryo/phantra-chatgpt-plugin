@@ -1,9 +1,7 @@
-# The tools on https://api.phantra.ai/mcp, one per line.
-# Source: zeropage-onryo/video-pipeline, src/mcp_server.py, LISTED_TOOLS.
-# Read off origin/main at 572d5cb on 2026-10-13. Re-read it when the server changes.
-# `effects` and `apply_effect` are NOT on origin/main yet: they come with video-pipeline
-# pull 293 (branch claude/effects-on-mcp). This package may be submitted only after that
-# is merged and deployed.
+# The tools on https://api.phantra.ai/mcp, one per line (37).
+# Source: zeropage-onryo/Phantra-AI (formerly video-pipeline), src/mcp_server.py, LISTED_TOOLS.
+# Re-read on 2026-10-15. `effects` and `apply_effect` are on main (the effects change,
+# pull 293, is merged). Re-read this list when the server changes.
 projects
 project
 project_chat
