@@ -9,7 +9,7 @@ the icons. What it does and how to connect it: <https://phantra.ai/mcp>.
 - `mcp.json`: the server, `https://api.phantra.ai/mcp` (37 tools), OAuth with dynamic client
   registration. A still is drawn and a scene rendered from the chat, each after a quote in
   credits and the person's explicit yes.
-- `skills/`: thirty-one skills for this server (listed below), one of them `setup`, which OpenAI
+- `skills/`: thirty-two skills for this server (listed below), one of them `setup`, which OpenAI
   runs after install.
 - `assets/`: the four icons.
 - `scripts/`: the package check and the tool list it reads. Not part of the ZIP.
@@ -26,15 +26,15 @@ skill names.
 
 Build the ZIP from this folder, so the manifest sits at the ZIP's root:
 
-    zip -r ../phantra-ai-chatgpt-1.3.0.zip plugin.json mcp.json assets skills README.md LICENSE
+    zip -r ../phantra-ai-chatgpt-1.3.1.zip plugin.json mcp.json assets skills README.md LICENSE
 
 ## The skills
 
-Thirty-one, each a `SKILL.md` of at most a hundred lines that names only tools the server has.
+Thirty-two, each a `SKILL.md` of at most a hundred lines that names only tools the server has.
 
 | for | skills |
 |---|---|
-| getting started | `setup`, `phantra-ai-use`, `start-a-project`, `ideas-and-projects` |
+| getting started | `setup`, `phantra-ai-use`, `start-a-project`, `ideas-and-projects`, `browse-presets` |
 | ads | `product-ad-set`, `ad-formats`, `ad-variations`, `product-shots`, `explainer` |
 | creator-style video | `ugc-ad`, `ugc-review`, `ugc-unboxing`, `ugc-tutorial`, `ugc-try-on` |
 | covers and scripts | `thumbnails`, `youtube-script` |
