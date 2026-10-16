@@ -43,8 +43,8 @@
           "Write and render a 10-second ad for my coffee brand",
           "Storyboard a 15-second launch video for my skincare brand"
         ],
-        "brandColor": "#E4002B",
-        "brandColorDark": "#FF4D6A",
+        "brandColor": "#B38F00",
+        "brandColorDark": "#FEE32D",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/logo.png"
       },
