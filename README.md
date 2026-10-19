@@ -1,5 +1,15 @@
 # Phantra AI for ChatGPT
 
+Phantra lets users create images, videos, and product ads directly in ChatGPT. Start with an idea, reference media or a product photo to use the latest image and video models to bring it to life.
+
+• Generate images and videos from text, your own photos or a product page. Choose from the latest models, or ask which one suits the job.
+• Turn product photos into short video ads, with built-in skills for product shots, storyboards and camera moves.
+• Keep your characters, products and places consistent: add them once as elements and every scene is held to their photos, shot after shot.
+• See the price before anything renders. Stills and clips are quoted in credits and made only after you say yes.
+• Finish in the chat: trim, reshape for vertical, square or widescreen, join clips with a music bed and get a download link, free.
+
+Connect your Phantra account to get started.
+
 The plugin package submitted to OpenAI's plugin directory (`https://platform.openai.com/plugins`):
 Phantra's AI image and video generator as an MCP server, the skills that drive it, and
 the icons. What it does and how to connect it: <https://phantra.ai/mcp>.
@@ -46,17 +56,6 @@ Thirty-two, each a `SKILL.md` of at most a hundred lines that names only tools t
 Not here, because the server has no tool for them yet: narration or a voice, subtitles on the
 video, and a website builder.
 
-## Before submitting
-
-- TODO(Mike): record the demo walkthrough by hand and put its https address in
-  `review.demo_recording_url` (`plugin.json`). The value there now is a placeholder, and the
-  check warns until it is replaced.
-- The reviewer's sign-in goes in the dashboard's Review details, never in this package.
-
 ## Help
 
 Questions and problems: support@phantra.ai, or an issue on this repository.
-
-The Claude plugin is a different package for a different directory, in
-[phantra-claude-plugin](https://github.com/zeropage-onryo/phantra-claude-plugin); it points at
-the server's other address, `/mcp/claude`, which never renders.
