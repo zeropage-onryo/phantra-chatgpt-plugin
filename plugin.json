@@ -68,7 +68,7 @@
               "description": "Price a render",
               "prompt": "What would it cost to render scene 408?",
               "tools_triggered": "quote",
-              "expected_behavior": "quote answers the keyframes and the clip priced in credits beside the account's balance, with signed tokens valid for one hour, and the note to show the person the price and wait for a yes. Nothing is spent by the quote."
+              "expected_behavior": "quote answers the clip priced in credits beside the account's balance, with signed tokens valid for one hour, and the note to show the person the price and wait for a yes. Scene 408 already has its keyframes, so the keyframes entry may be null or priced at nothing; the clip is the price to show. Nothing is spent by the quote."
             },
             {
               "description": "Price a still, then draw it only after a yes",
