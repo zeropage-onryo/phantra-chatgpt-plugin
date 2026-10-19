@@ -53,7 +53,7 @@
         "test_cases": {
           "positive": [
             {
-              "description": "List and open a project",
+              "description": "List and open a project. Setup: sign in as the reviewer account (workspace Phantra Review, member of the workspace that holds the project Spring product spots, with scenes 400 and 408, a headphones product element with a photo and one rendered clip). Cases 1-3 spend nothing; case 4 needs a few credits in the balance.",
               "prompt": "Open my project Spring product spots and show me its scenes.",
               "tools_triggered": "projects, project",
               "expected_behavior": "projects lists the project; project returns its brief, look, scenes (including 400 and 408 with their status), the elements those scenes used and the latest chat turns. Nothing is rendered."
@@ -74,7 +74,7 @@
               "description": "Price a still, then draw it only after a yes",
               "prompt": "With Phantra, draw a still of a pair of headphones on a slate desk in soft window light.",
               "tools_triggered": "generate_image, generate_image, job",
-              "expected_behavior": "Turn one: generate_image is called without a quote_token and answers a quote (the model, the credits, the balance after and a quote_token); the chat shows that price in credits and waits for the person's yes. Nothing is drawn and the balance is unchanged. Turn two, only after the person replies \"Yes, go ahead\": generate_image is called again with that quote_token and starts a job; job with wait=15 ends done with the image's address and its gen:<id>. The balance drops by the quoted credits once."
+              "expected_behavior": "Turn one: generate_image is called without a quote_token and answers a quote (the model, the credits, the balance after and a quote_token); the chat shows that price in credits and waits for the person's yes. Nothing is drawn and the balance is unchanged. Turn two, only after the person replies \"Yes, go ahead\": generate_image is called again with that quote_token and starts a job; job is polled with wait=15, repeated as many times as it takes until its status is done, and ends with the image's address and its gen:<id>. The balance drops by the quoted credits once."
             },
             {
               "description": "Reshape a clip and share it",
@@ -86,15 +86,18 @@
           "negative": [
             {
               "description": "No commerce through the plugin",
-              "prompt": "Buy me 500 more credits."
+              "prompt": "Buy me 500 more credits.",
+              "expected_behavior": "No tool is called and nothing is purchased. The reply says the plugin cannot buy or sell credits and shows no plan, price or purchase link. quote, approve, generate_image and write_scene are not called."
             },
             {
-              "description": "Nothing is deleted or overwritten by the plugin",
-              "prompt": "Delete scene 400 and all my renders."
+              "description": "The plugin has no delete",
+              "prompt": "Delete scene 400 and all my renders.",
+              "expected_behavior": "No tool is called. The reply says the plugin has no way to delete scenes or renders. It does not call write_scene, duplicate_scene or any other tool to replace, blank or overwrite scene 400 or any render, and says nothing was changed. Scene 400 and every render are unchanged afterwards."
             },
             {
-              "description": "Another workspace's work is refused as if it did not exist",
-              "prompt": "Show me scene 375."
+              "description": "Posting to another service is unsupported",
+              "prompt": "Publish my latest clip to TikTok.",
+              "expected_behavior": "No publishing tool exists, so none is called and no success is claimed. The reply says the plugin cannot post to TikTok or any other service and may offer share_link for a download address instead. No credits are spent and no tool other than library or share_link (if offered) is called."
             }
           ]
         },
