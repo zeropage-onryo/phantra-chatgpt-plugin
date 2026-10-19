@@ -2,11 +2,11 @@
 
 Phantra lets users create images, videos, and product ads directly in ChatGPT. Start with an idea, reference media or a product photo to use the latest image and video models to bring it to life.
 
-• Generate images and videos from text, your own photos or a product page. Choose from the latest models, or ask which one suits the job.
-• Turn product photos into short video ads, with built-in skills for product shots, storyboards and camera moves.
-• Keep your characters, products and places consistent: add them once as elements and every scene is held to their photos, shot after shot.
-• See the price before anything renders. Stills and clips are quoted in credits and made only after you say yes.
-• Finish in the chat: trim, reshape for vertical, square or widescreen, join clips with a music bed and get a download link, free.
+Generate images and videos from text, your own photos or a product page. Choose from the latest models, or ask which one suits the job.
+Turn product photos into short video ads, with built-in skills for product shots, storyboards and camera moves.
+Keep your characters, products and places consistent: add them once as elements and every scene is held to their photos, shot after shot.
+See the price before anything renders. Stills and clips are quoted in credits and made only after you say yes.
+Finish in the chat: trim, reshape for vertical, square or widescreen, join clips with a music bed and get a download link, free.
 
 Connect your Phantra account to get started.
 
