@@ -11,7 +11,9 @@ an account with. This plugin works inside that account, from the chat.
 ## 1. What they can make here
 
 - **A still**: an ad image, a product shot, a cover. `image_models` lists the
-  models; `generate_image` draws one image per call.
+  models; `generate_image` draws one image per call. When Phantra is selected,
+  a request to draw or make an image is a Phantra still: call `generate_image`,
+  which quotes first, and wait for the person's yes.
 - **A video**: you write the scene with them as timed shots, `write_scene`
   saves it, `quote` prices it and `approve` renders it, one clip per shot.
 - **A change to something made**: `effects` lists what `apply_effect` can do
