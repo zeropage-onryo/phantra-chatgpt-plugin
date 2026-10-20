@@ -6,8 +6,8 @@ description: The habits every Phantra skill assumes, loaded before any writing t
 # Use the studio well
 
 Every other skill in this plugin assumes these five habits. Read this once,
-then keep to it on every call. Only `generate_image` (a still), `apply_effect`
-(an effect) and `approve` (a scene's keyframes or clip) spend credits, each after a
+then keep to it on every call. Only `generate_image` (a still), the effect
+tools (`edit_image`, `remove_background` and the rest) and `approve` (a scene's keyframes or clip) spend credits, each after a
 quote and the person's yes; the rest reads, saves text or starts a free edit.
 
 ## 1. Reuse what exists before making anything
@@ -46,7 +46,7 @@ no element fits:
 Making media is the only thing that costs, and it is quoted first. For a scene,
 `quote` with the `scene_id` before anyone decides: the keyframes, the clip per
 shot, the balance. For a still or an effect, the first `generate_image` or
-`apply_effect` call, with no `quote_token`, IS the quote. Say the price in the quote's own
+effect-tool call, with no `quote_token`, IS the quote. Say the price in the quote's own
 words: never your own arithmetic, never a currency; credits only.
 `recommend_model`, `video_models` and `image_models` help choose a model;
 `quote` with `model` or `frame` prices that choice exactly.

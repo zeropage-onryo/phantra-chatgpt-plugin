@@ -16,7 +16,7 @@ Ask only if it is not clear. Four shelves exist:
 
 | they want to see | read |
 |---|---|
-| ways to change something already made, animate a still, add a camera move, upscale, add sound, cut out a subject | `effects` |
+| ways to change something already made, animate a still, add a camera move, upscale, add sound, cut out a subject | the seven effect tools' own choices (see the `effects` skill) |
 | ways of working, saved by the studio or by them | `recipes` |
 | image makers and what each is good at | `image_models` |
 | video makers, lengths and what each costs per second | `video_models` |
@@ -26,9 +26,10 @@ shelf to open.
 
 ## 2. Read the menu, never recite it from memory
 
-- `effects` lists what exists today. `category` narrows it: `image_edit`,
-  `video_effect`, `camera`, `finish`. Name an effect only from a row you
-  just read; one the menu does not list is not available.
+- The effects are seven tools (`edit_image`, `remove_background`,
+  `animate_still`, `camera_move`, `upscale_clip`, `add_sound`,
+  `reframe_clip`); each one's schema lists its templates, moves, shapes and
+  colours. Name one only from those lists. Their price comes in the quote.
 - `recipes` lists names with one line each. `recipe` with a name opens one.
 - `image_models` and `video_models` list what the studio runs now, with
   lengths, shapes and prices in credits.
@@ -40,8 +41,8 @@ making and offer more. Never paste a whole menu.
 
 For every item give: its name, what it does in plain words, what it needs
 (an image, a clip, a prompt) and, when the menu gives one, its price in
-credits at default options. A price read here is a guide, not a quote: some
-depend on the clip. Do not call it the price.
+credits. A price read here is a guide, not a quote: an effect's price comes
+only in its quote, and some depend on the clip. Do not call it the price.
 
 Offer to make it concrete: with their own material, `library` lists what they
 have (`gen:<id>` and `asset:<id>`), and a photo not in it yet comes in through

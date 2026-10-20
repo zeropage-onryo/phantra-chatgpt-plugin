@@ -1,7 +1,7 @@
-# The tools on https://api.phantra.ai/mcp, one per line (37).
+# The tools on https://api.phantra.ai/mcp, one per line (42).
 # Source: zeropage-onryo/Phantra-AI (formerly video-pipeline), src/mcp_server.py, LISTED_TOOLS.
-# Re-read on 2026-10-15. `effects` and `apply_effect` are on main (the effects change,
-# pull 293, is merged). Re-read this list when the server changes.
+# Re-read on 2026-10-20: one tool per effect (Phantra-AI pull 395) replaces `effects`
+# and `apply_effect`. Re-read this list when the server changes.
 projects
 project
 project_chat
@@ -11,9 +11,14 @@ add_element
 upload_link
 image_models
 video_models
-effects
 generate_image
-apply_effect
+edit_image
+remove_background
+animate_still
+camera_move
+upscale_clip
+add_sound
+reframe_clip
 write_scene
 scene
 quote
