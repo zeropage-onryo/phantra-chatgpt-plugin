@@ -16,8 +16,9 @@ an account with. This plugin works inside that account, from the chat.
   which quotes first, and wait for the person's yes.
 - **A video**: you write the scene with them as timed shots, `write_scene`
   saves it, `quote` prices it and `approve` renders it, one clip per shot.
-- **A change to something made**: `effects` lists what `apply_effect` can do
-  to a still or a clip: an edit, a camera move, an upscale, added sound.
+- **A change to something made**: `edit_image`, `remove_background`, `animate_still`, `camera_move`, `upscale_clip`, `add_sound` or `reframe_clip`
+  change a still or a clip: an edit, a cut-out, a template, a camera move, an
+  upscale, added sound, a new shape.
 - **A finished file**: `reformat` (a new shape), `trim_clip`, `assemble_clips`
   (join clips) and `share_link` (a download link). These cost no credits.
 - Everything made lands in their studio: `library` lists it, and `projects`
@@ -45,7 +46,7 @@ workspace is empty: say so and offer one of the three things above.
 ## 4. The one rule about spending
 
 Reading, writing scenes, the free edits and everything else cost nothing.
-Only a still (`generate_image`), an effect (`apply_effect`) and a render
+Only a still (`generate_image`), an effect (one of the effect tools) and a render
 (`approve`, after `quote`) spend the account's credits, and each one is quoted first: show the person the
 price in credits and the balance, wait for their yes in this chat, and only
 then make the call that spends. Never say yes for them, and never spend
